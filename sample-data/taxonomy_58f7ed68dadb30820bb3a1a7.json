@@ -1,0 +1,839 @@
+{
+   "_id" : "58f7ed68dadb30820bb3a1a7",
+   "associated" : {
+      "links" : [
+         {
+            "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c4487900d&type=subregion",
+            "key" : "taxonomy"
+         },
+         {
+            "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c4487900d",
+            "key" : "api"
+         },
+         {
+            "href" : "https://www.surfline.com/surf-forecasts/south-san-diego/58581a836630e24c4487900d",
+            "key" : "www"
+         }
+      ]
+   },
+   "category" : "surfline",
+   "contains" : [
+      {
+         "_id" : "58f7ed68dadb30820bb3a198",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708839&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708839",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/scripps/5842041f4e65fad6a7708839",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed68dadb30820bb3a18e",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.256142953561,
+               32.8657771593589
+            ],
+            "type" : "Point"
+         },
+         "name" : "Scripps",
+         "spot" : "5842041f4e65fad6a7708839",
+         "type" : "spot",
+         "updatedAt" : "2022-11-17T22:38:27.856Z"
+      },
+      {
+         "_id" : "58f7ed6ddadb30820bb3a7c2",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708842&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708842",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/mission-beach/5842041f4e65fad6a7708842",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "5949ad0bdadb30820b835d32",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.255139,
+               32.776636
+            ],
+            "type" : "Point"
+         },
+         "name" : "Mission Beach",
+         "spot" : "5842041f4e65fad6a7708842",
+         "type" : "spot",
+         "updatedAt" : "2023-01-02T18:36:44.133Z"
+      },
+      {
+         "_id" : "58f7ed9fdadb30820bb3dc7e",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a77088cc&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a77088cc",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/la-jolla-shores/5842041f4e65fad6a77088cc",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed68dadb30820bb3a18e",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.257,
+               32.863
+            ],
+            "type" : "Point"
+         },
+         "name" : "La Jolla Shores",
+         "spot" : "5842041f4e65fad6a77088cc",
+         "type" : "spot",
+         "updatedAt" : "2022-11-07T21:19:44.940Z"
+      },
+      {
+         "_id" : "58f7ed6bdadb30820bb3a537",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a770883f&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a770883f",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/ocean-beach/5842041f4e65fad6a770883f",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed68dadb30820bb3a1a7",
+            "59aedf65dadb30820b8698d1"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.25337,
+               32.7503471767318
+            ],
+            "type" : "Point"
+         },
+         "name" : "Ocean Beach",
+         "spot" : "5842041f4e65fad6a770883f",
+         "type" : "spot",
+         "updatedAt" : "2023-01-02T18:36:49.818Z"
+      },
+      {
+         "_id" : "58f7ed9edadb30820bb3db47",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a77088c4&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a77088c4",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/old-man-s-at-tourmaline/5842041f4e65fad6a77088c4",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "5949ad70dadb30820b841b48",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.264788655599,
+               32.8060476681448
+            ],
+            "type" : "Point"
+         },
+         "name" : "Old Man's at Tourmaline",
+         "spot" : "5842041f4e65fad6a77088c4",
+         "type" : "spot",
+         "updatedAt" : "2022-11-07T21:19:42.817Z"
+      },
+      {
+         "_id" : "58f7ed68dadb30820bb3a236",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a770883a&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a770883a",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/birdrock/5842041f4e65fad6a770883a",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed68dadb30820bb3a18e",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.273807,
+               32.813094
+            ],
+            "type" : "Point"
+         },
+         "name" : "Birdrock",
+         "spot" : "5842041f4e65fad6a770883a",
+         "type" : "spot",
+         "updatedAt" : "2022-11-07T21:19:30.313Z"
+      },
+      {
+         "_id" : "58f7ed6cdadb30820bb3a5ca",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708840&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708840",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/sunset-cliffs/5842041f4e65fad6a7708840",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed68dadb30820bb3a1a7",
+            "5a020a4de01f4b001c165ad6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.257176,
+               32.73693
+            ],
+            "type" : "Point"
+         },
+         "name" : "Sunset Cliffs",
+         "spot" : "5842041f4e65fad6a7708840",
+         "type" : "spot",
+         "updatedAt" : "2023-01-02T18:36:54.790Z"
+      },
+      {
+         "_id" : "58f7ed6adadb30820bb3a39f",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a770883c&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a770883c",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/windansea/5842041f4e65fad6a770883c",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed68dadb30820bb3a18e",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.281617407274,
+               32.8297897422976
+            ],
+            "type" : "Point"
+         },
+         "name" : "Windansea",
+         "spot" : "5842041f4e65fad6a770883c",
+         "type" : "spot",
+         "updatedAt" : "2022-11-07T21:19:30.289Z"
+      },
+      {
+         "_id" : "58f7ed9fdadb30820bb3dc05",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a77088cb&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a77088cb",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/tijuana-slough/5842041f4e65fad6a77088cb",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed6edadb30820bb3a88e",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.132744502032,
+               32.557056711256
+            ],
+            "type" : "Point"
+         },
+         "name" : "Tijuana Slough",
+         "spot" : "5842041f4e65fad6a77088cb",
+         "type" : "spot",
+         "updatedAt" : "2022-11-07T21:19:43.765Z"
+      },
+      {
+         "_id" : "58f7ed9ddadb30820bb3da70",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a77088c2&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a77088c2",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/pb-point/5842041f4e65fad6a77088c2",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "5949ad70dadb30820b841b48",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.268876433372,
+               32.806628464928
+            ],
+            "type" : "Point"
+         },
+         "name" : "PB Point",
+         "spot" : "5842041f4e65fad6a77088c2",
+         "type" : "spot",
+         "updatedAt" : "2022-11-07T21:19:43.749Z"
+      },
+      {
+         "_id" : "58f7ed69dadb30820bb3a2d4",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a770883b&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a770883b",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/blacks/5842041f4e65fad6a770883b",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed68dadb30820bb3a18e",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.25303,
+               32.877231
+            ],
+            "type" : "Point"
+         },
+         "name" : "Blacks",
+         "spot" : "5842041f4e65fad6a770883b",
+         "type" : "spot",
+         "updatedAt" : "2022-11-07T21:19:31.865Z"
+      },
+      {
+         "_id" : "58f8084ddadb30820bce9c05",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=584204204e65fad6a7709994&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/584204204e65fad6a7709994",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/torrey-pines-state-beach/584204204e65fad6a7709994",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed68dadb30820bb3a1a7",
+            "58f7ed68dadb30820bb3a18e"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.259900052917,
+               32.9271282541556
+            ],
+            "type" : "Point"
+         },
+         "name" : "Torrey Pines State Beach",
+         "spot" : "584204204e65fad6a7709994",
+         "type" : "spot",
+         "updatedAt" : "2022-10-01T16:22:48.502Z"
+      },
+      {
+         "_id" : "58f7ed6edadb30820bb3a89a",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708844&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708844",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/imperial-beach-pier/5842041f4e65fad6a7708844",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed6edadb30820bb3a88e",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.13475,
+               32.577195519016
+            ],
+            "type" : "Point"
+         },
+         "name" : "Imperial Beach Pier",
+         "spot" : "5842041f4e65fad6a7708844",
+         "type" : "spot",
+         "updatedAt" : "2023-01-02T18:37:00.460Z"
+      },
+      {
+         "_id" : "58f7ed6ddadb30820bb3a6c7",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a7708841&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a7708841",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/pacific-beach/5842041f4e65fad6a7708841",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "5949ad70dadb30820b841b48",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.25779,
+               32.7965822587288
+            ],
+            "type" : "Point"
+         },
+         "name" : "Pacific Beach",
+         "spot" : "5842041f4e65fad6a7708841",
+         "type" : "spot",
+         "updatedAt" : "2023-01-02T18:36:35.412Z"
+      },
+      {
+         "_id" : "58f7ed6adadb30820bb3a463",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a770883d&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a770883d",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/horseshoe/5842041f4e65fad6a770883d",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed68dadb30820bb3a18e",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.28396,
+               32.838278
+            ],
+            "type" : "Point"
+         },
+         "name" : "Horseshoe",
+         "spot" : "5842041f4e65fad6a770883d",
+         "type" : "spot",
+         "updatedAt" : "2022-11-07T21:19:30.595Z"
+      },
+      {
+         "_id" : "58f7eda0dadb30820bb3dd16",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5842041f4e65fad6a77088ce&type=spot",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/spots/5842041f4e65fad6a77088ce",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-report/coronado-beach/5842041f4e65fad6a77088ce",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "58f7ed6bdadb30820bb3a52d",
+            "58f7ed68dadb30820bb3a1a7"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.174213162387,
+               32.6744365779059
+            ],
+            "type" : "Point"
+         },
+         "name" : "Coronado Beach",
+         "spot" : "5842041f4e65fad6a77088ce",
+         "type" : "spot",
+         "updatedAt" : "2022-11-07T21:19:42.830Z"
+      }
+   ],
+   "hasSpots" : true,
+   "in" : [
+      {
+         "_id" : "58f7ed51dadb30820bb38782",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=6295630&type=geoname",
+                  "key" : "taxonomy"
+               },
+               null,
+               null
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 4,
+         "enumeratedPath" : ",Earth",
+         "geonameId" : 6295630,
+         "geonames" : {
+            "adminName1" : "",
+            "fcl" : "L",
+            "fclName" : "parks,area, ...",
+            "fcode" : "AREA",
+            "fcodeName" : "area",
+            "geonameId" : 6295630,
+            "lat" : "0",
+            "lng" : "0",
+            "name" : "Earth",
+            "population" : 6814400000,
+            "toponymName" : "Earth"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            null
+         ],
+         "location" : {
+            "coordinates" : [
+               0,
+               0
+            ],
+            "type" : "Point"
+         },
+         "name" : "Earth",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed51dadb30820bb38791",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=6255149&type=geoname",
+                  "key" : "taxonomy"
+               },
+               null,
+               null
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 3,
+         "enumeratedPath" : ",Earth,North America",
+         "geonameId" : 6255149,
+         "geonames" : {
+            "adminName1" : "",
+            "fcl" : "L",
+            "fclName" : "parks,area, ...",
+            "fcode" : "CONT",
+            "fcodeName" : "continent",
+            "geonameId" : 6255149,
+            "lat" : "46.07323",
+            "lng" : "-100.54688",
+            "name" : "North America",
+            "population" : 0,
+            "toponymName" : "North America"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb38782"
+         ],
+         "location" : {
+            "coordinates" : [
+               -100.54688,
+               46.07323
+            ],
+            "type" : "Point"
+         },
+         "name" : "North America",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed51dadb30820bb3879c",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=6252001&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/6252001",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states-surfing-and-beaches/6252001",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 2,
+         "enumeratedPath" : ",Earth,North America,United States",
+         "geonameId" : 6252001,
+         "geonames" : {
+            "adminCode1" : "00",
+            "adminName1" : "",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "PCLI",
+            "fcodeName" : "independent political entity",
+            "geonameId" : 6252001,
+            "lat" : "39.76",
+            "lng" : "-98.5",
+            "name" : "United States",
+            "population" : 310232863,
+            "toponymName" : "United States"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb38791"
+         ],
+         "location" : {
+            "coordinates" : [
+               -98.5,
+               39.76
+            ],
+            "type" : "Point"
+         },
+         "name" : "United States",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed51dadb30820bb387a6",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5332921&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/5332921",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california-surfing-and-beaches/5332921",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 1,
+         "enumeratedPath" : ",Earth,North America,United States,California",
+         "geonameId" : 5332921,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM1",
+            "fcodeName" : "first-order administrative division",
+            "geonameId" : 5332921,
+            "lat" : "37.25022",
+            "lng" : "-119.75126",
+            "name" : "California",
+            "population" : 37691912,
+            "toponymName" : "California"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb3879c"
+         ],
+         "location" : {
+            "coordinates" : [
+               -119.75126,
+               37.25022
+            ],
+            "type" : "Point"
+         },
+         "name" : "California",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "5908c46bdadb30820b23c1f3",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5908c45e6a2e4300134fbe92&type=region",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/regions/5908c45e6a2e4300134fbe92",
+                  "key" : "api"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 1,
+         "hasSpots" : true,
+         "name" : "Southern California",
+         "region" : "5908c45e6a2e4300134fbe92",
+         "type" : "region",
+         "updatedAt" : "2023-01-11T01:26:29.173Z"
+      }
+   ],
+   "liesIn" : [
+      "5908c46bdadb30820b23c1f3",
+      "58f7ed51dadb30820bb387a6"
+   ],
+   "name" : "South San Diego",
+   "subregion" : "58581a836630e24c4487900d",
+   "type" : "subregion",
+   "updatedAt" : "2023-01-02T18:37:00.457Z"
+}

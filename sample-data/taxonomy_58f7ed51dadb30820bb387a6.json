@@ -1,0 +1,1755 @@
+{
+   "_id" : "58f7ed51dadb30820bb387a6",
+   "associated" : {
+      "links" : [
+         {
+            "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5332921&type=geoname",
+            "key" : "taxonomy"
+         },
+         {
+            "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/5332921",
+            "key" : "www"
+         },
+         {
+            "href" : "https://www.surfline.com/travel/united-states/california-surfing-and-beaches/5332921",
+            "key" : "travel"
+         }
+      ]
+   },
+   "category" : "geonames",
+   "contains" : [
+      {
+         "_id" : "58f7ed5bdadb30820bb393cd",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5368381&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/los-angeles-county/5368381",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/los-angeles-county-surfing-and-beaches/5368381",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Los Angeles County",
+         "geonameId" : 5368381,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5368381,
+            "lat" : "34.19801",
+            "lng" : "-118.26102",
+            "name" : "Los Angeles County",
+            "population" : 9818605,
+            "toponymName" : "Los Angeles County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -118.26102,
+               34.19801
+            ],
+            "type" : "Point"
+         },
+         "name" : "Los Angeles County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed5adadb30820bb3924c",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44878fd5&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44878fd5",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/north-los-angeles/58581a836630e24c44878fd5",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "North Los Angeles",
+         "subregion" : "58581a836630e24c44878fd5",
+         "type" : "subregion",
+         "updatedAt" : "2023-01-05T22:00:01.318Z"
+      },
+      {
+         "_id" : "58f7eee8dadb30820bb54c6b",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44879007&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44879007",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/mendocino/58581a836630e24c44879007",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c3acdadb30820b22e4ff",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Mendocino",
+         "subregion" : "58581a836630e24c44879007",
+         "type" : "subregion",
+         "updatedAt" : "2022-11-07T21:20:59.988Z"
+      },
+      {
+         "_id" : "58f7ed5adadb30820bb392bb",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5392967&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/santa-barbara-county/5392967",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/santa-barbara-county-surfing-and-beaches/5392967",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Santa Barbara County",
+         "geonameId" : 5392967,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5392967,
+            "lat" : "34.53834",
+            "lng" : "-120.03078",
+            "name" : "Santa Barbara County",
+            "population" : 423895,
+            "toponymName" : "Santa Barbara County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -120.03078,
+               34.53834
+            ],
+            "type" : "Point"
+         },
+         "name" : "Santa Barbara County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed68dadb30820bb3a1a7",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c4487900d&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c4487900d",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/south-san-diego/58581a836630e24c4487900d",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "South San Diego",
+         "subregion" : "58581a836630e24c4487900d",
+         "type" : "subregion",
+         "updatedAt" : "2023-01-02T18:37:00.457Z"
+      },
+      {
+         "_id" : "58f7ed5adadb30820bb392de",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44878fd4&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44878fd4",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/santa-barbara/58581a836630e24c44878fd4",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Santa Barbara",
+         "subregion" : "58581a836630e24c44878fd4",
+         "type" : "subregion",
+         "updatedAt" : "2023-01-05T23:37:59.904Z"
+      },
+      {
+         "_id" : "58f7ed56dadb30820bb38dea",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44879014&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44879014",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/san-luis-obispo-county/58581a836630e24c44879014",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c407dadb30820b2351d8",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "San Luis Obispo County",
+         "subregion" : "58581a836630e24c44879014",
+         "type" : "subregion",
+         "updatedAt" : "2023-02-02T21:07:13.562Z"
+      },
+      {
+         "_id" : "58f7ed51dadb30820bb387b6",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5391997&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/san-francisco-county/5391997",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/san-francisco-county-surfing-and-beaches/5391997",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,San Francisco County",
+         "geonameId" : 5391997,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5391997,
+            "lat" : "37.77823",
+            "lng" : "-122.4425",
+            "name" : "San Francisco County",
+            "population" : 805235,
+            "toponymName" : "City and County of San Francisco"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -122.4425,
+               37.77823
+            ],
+            "type" : "Point"
+         },
+         "name" : "San Francisco County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "6008ba3784f4820026950da3",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=6008ba3784f48235bf950da2&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/6008ba3784f48235bf950da2",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/channel-islands-california/6008ba3784f48235bf950da2",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6",
+            "5908c46bdadb30820b23c1f3"
+         ],
+         "name" : "Channel Islands-California",
+         "subregion" : "6008ba3784f48235bf950da2",
+         "type" : "subregion"
+      },
+      {
+         "_id" : "58f7edbadadb30820bb3fb01",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44879012&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44879012",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/monterey/58581a836630e24c44879012",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c407dadb30820b2351d8",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Monterey",
+         "subregion" : "58581a836630e24c44879012",
+         "type" : "subregion",
+         "updatedAt" : "2023-02-07T00:21:12.076Z"
+      },
+      {
+         "_id" : "58f7ed65dadb30820bb39f6a",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5391832&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/san-diego/5391832",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/san-diego-surfing-and-beaches/5391832",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,San Diego",
+         "geonameId" : 5391832,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5391832,
+            "lat" : "33.0282",
+            "lng" : "-116.77021",
+            "name" : "San Diego",
+            "population" : 3095313,
+            "toponymName" : "San Diego County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -116.77021,
+               33.0282
+            ],
+            "type" : "Point"
+         },
+         "name" : "San Diego",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed58dadb30820bb38fb2",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c4487900c&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c4487900c",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/ventura/58581a836630e24c4487900c",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Ventura",
+         "subregion" : "58581a836630e24c4487900c",
+         "type" : "subregion",
+         "updatedAt" : "2023-01-04T01:34:18.816Z"
+      },
+      {
+         "_id" : "58f7ed54dadb30820bb38b6a",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5393068&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/santa-cruz-county/5393068",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/santa-cruz-county-surfing-and-beaches/5393068",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Santa Cruz County",
+         "geonameId" : 5393068,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5393068,
+            "lat" : "37.02161",
+            "lng" : "-122.00979",
+            "name" : "Santa Cruz County",
+            "population" : 262382,
+            "toponymName" : "Santa Cruz County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -122.00979,
+               37.02161
+            ],
+            "type" : "Point"
+         },
+         "name" : "Santa Cruz County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed56dadb30820bb38db7",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5392329&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/san-luis-obispo-county/5392329",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/san-luis-obispo-county-surfing-and-beaches/5392329",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,San Luis Obispo County",
+         "geonameId" : 5392329,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5392329,
+            "lat" : "35.38742",
+            "lng" : "-120.4522",
+            "name" : "San Luis Obispo County",
+            "population" : 269637,
+            "toponymName" : "San Luis Obispo County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -120.4522,
+               35.38742
+            ],
+            "type" : "Point"
+         },
+         "name" : "San Luis Obispo County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7edd9dadb30820bb41cf4",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44879015&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44879015",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/north-santa-barbara-county/58581a836630e24c44879015",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "North Santa Barbara County",
+         "subregion" : "58581a836630e24c44879015",
+         "type" : "subregion",
+         "updatedAt" : "2022-11-07T21:19:58.749Z"
+      },
+      {
+         "_id" : "5908c4e2dadb30820b244ecc",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c448790e6&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c448790e6",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/outer-waters/58581a836630e24c448790e6",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Outer Waters",
+         "subregion" : "58581a836630e24c448790e6",
+         "type" : "subregion"
+      },
+      {
+         "_id" : "58f7edf1dadb30820bb438d2",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44879008&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44879008",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/sonoma-county/58581a836630e24c44879008",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c3acdadb30820b22e4ff",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Sonoma County",
+         "subregion" : "58581a836630e24c44879008",
+         "type" : "subregion",
+         "updatedAt" : "2022-11-07T21:20:04.537Z"
+      },
+      {
+         "_id" : "58f7ed5ddadb30820bb39651",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5379524&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/orange-county/5379524",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/orange-county-surfing-and-beaches/5379524",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Orange County",
+         "geonameId" : 5379524,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5379524,
+            "lat" : "33.67691",
+            "lng" : "-117.77617",
+            "name" : "Orange County",
+            "population" : 3010232,
+            "toponymName" : "Orange County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -117.77617,
+               33.67691
+            ],
+            "type" : "Point"
+         },
+         "name" : "Orange County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed58dadb30820bb38f8b",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5405889&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/ventura-county/5405889",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/ventura-county-surfing-and-beaches/5405889",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Ventura County",
+         "geonameId" : 5405889,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5405889,
+            "lat" : "34.35753",
+            "lng" : "-119.12603",
+            "name" : "Ventura County",
+            "population" : 823318,
+            "toponymName" : "Ventura County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -119.12603,
+               34.35753
+            ],
+            "type" : "Point"
+         },
+         "name" : "Ventura County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "5b85acf584b9c40001b122bd",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=11071615&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/southern-california/11071615",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/southern-california-surfing-and-beaches/11071615",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Southern California",
+         "geonameId" : 11071615,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminCodes1" : {
+               "ISO3166_2" : "CA"
+            },
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "L",
+            "fclName" : "parks,area, ...",
+            "fcode" : "RGN",
+            "fcodeName" : "region",
+            "geonameId" : 11071615,
+            "lat" : "34.68743",
+            "lng" : "-116.78467",
+            "name" : "Southern California",
+            "population" : 22000000,
+            "toponymName" : "Southern California"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -116.78467,
+               34.68743
+            ],
+            "type" : "Point"
+         },
+         "name" : "Southern California",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed5cdadb30820bb394fe",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c4487900b&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c4487900b",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/south-los-angeles/58581a836630e24c4487900b",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "South Los Angeles",
+         "subregion" : "58581a836630e24c4487900b",
+         "type" : "subregion",
+         "updatedAt" : "2023-01-04T17:22:32.214Z"
+      },
+      {
+         "_id" : "5b60a56313bafb78759d25b7",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5b60a5639c0292001aa51919&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/5b60a5639c0292001aa51919",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/u-s-wave-pool/5b60a5639c0292001aa51919",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5b60a56313bafb78759d25c3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "U.S. Wave Pool",
+         "subregion" : "5b60a5639c0292001aa51919",
+         "type" : "subregion"
+      },
+      {
+         "_id" : "58f7edbadadb30820bb3fad2",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5374376&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/monterey-county/5374376",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/monterey-county-surfing-and-beaches/5374376",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Monterey County",
+         "geonameId" : 5374376,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5374376,
+            "lat" : "36.23977",
+            "lng" : "-121.3089",
+            "name" : "Monterey County",
+            "population" : 415057,
+            "toponymName" : "Monterey County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -121.3089,
+               36.23977
+            ],
+            "type" : "Point"
+         },
+         "name" : "Monterey County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed51dadb30820bb38896",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5392427&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/san-mateo-county/5392427",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/san-mateo-county-surfing-and-beaches/5392427",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,San Mateo County",
+         "geonameId" : 5392427,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5392427,
+            "lat" : "37.43621",
+            "lng" : "-122.35566",
+            "name" : "San Mateo County",
+            "population" : 718451,
+            "toponymName" : "San Mateo County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -122.35566,
+               37.43621
+            ],
+            "type" : "Point"
+         },
+         "name" : "San Mateo County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f80aa0dadb30820bd132a5",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44879013&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44879013",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/big-sur/58581a836630e24c44879013",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c407dadb30820b2351d8",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Big Sur",
+         "subregion" : "58581a836630e24c44879013",
+         "type" : "subregion",
+         "updatedAt" : "2022-11-16T23:26:49.095Z"
+      },
+      {
+         "_id" : "59cac896dadb30820b10b65a",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=59cac89689c773001c29fa0c&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/59cac89689c773001c29fa0c",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/lemoore/59cac89689c773001c29fa0c",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : false,
+         "liesIn" : [
+            "5908c407dadb30820b2351d8",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Lemoore",
+         "subregion" : "59cac89689c773001c29fa0c",
+         "type" : "subregion"
+      },
+      {
+         "_id" : "58f7ed5ddadb30820bb39689",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44878fd6&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44878fd6",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/north-orange-county/58581a836630e24c44878fd6",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "North Orange County",
+         "subregion" : "58581a836630e24c44878fd6",
+         "type" : "subregion",
+         "updatedAt" : "2023-01-05T21:56:43.478Z"
+      },
+      {
+         "_id" : "58f7edeadadb30820bb4306a",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5565500&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/humboldt-county/5565500",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/humboldt-county-surfing-and-beaches/5565500",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Humboldt County",
+         "geonameId" : 5565500,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5565500,
+            "lat" : "40.70501",
+            "lng" : "-123.91582",
+            "name" : "Humboldt County",
+            "population" : 134623,
+            "toponymName" : "Humboldt County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -123.91582,
+               40.70501
+            ],
+            "type" : "Point"
+         },
+         "name" : "Humboldt County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ededdadb30820bb434a7",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5370468&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/marin-county/5370468",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/marin-county-surfing-and-beaches/5370468",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Marin County",
+         "geonameId" : 5370468,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5370468,
+            "lat" : "38.05518",
+            "lng" : "-122.74886",
+            "name" : "Marin County",
+            "population" : 252409,
+            "toponymName" : "Marin County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -122.74886,
+               38.05518
+            ],
+            "type" : "Point"
+         },
+         "name" : "Marin County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed54dadb30820bb38b94",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44879011&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44879011",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/santa-cruz/58581a836630e24c44879011",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c407dadb30820b2351d8",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Santa Cruz",
+         "subregion" : "58581a836630e24c44879011",
+         "type" : "subregion",
+         "updatedAt" : "2023-02-07T00:04:38.655Z"
+      },
+      {
+         "_id" : "58f7ed51dadb30820bb387ef",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44879010&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44879010",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/san-francisco/58581a836630e24c44879010",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c3acdadb30820b22e4ff",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "San Francisco",
+         "subregion" : "58581a836630e24c44879010",
+         "type" : "subregion",
+         "updatedAt" : "2022-12-21T20:29:07.974Z"
+      },
+      {
+         "_id" : "59cac823dadb30820b10453b",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5363385&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/kings-county/5363385",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/kings-county-surfing-and-beaches/5363385",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Kings County",
+         "geonameId" : 5363385,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5363385,
+            "lat" : "36.07536",
+            "lng" : "-119.8155",
+            "name" : "Kings County",
+            "population" : 152982,
+            "toponymName" : "Kings County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -119.8155,
+               36.07536
+            ],
+            "type" : "Point"
+         },
+         "name" : "Kings County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed65dadb30820bb39f8b",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44878fd7&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44878fd7",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/north-san-diego/58581a836630e24c44878fd7",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "North San Diego",
+         "subregion" : "58581a836630e24c44878fd7",
+         "type" : "subregion",
+         "updatedAt" : "2023-01-02T17:43:54.056Z"
+      },
+      {
+         "_id" : "58f7ed63dadb30820bb39cd0",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c4487900a&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c4487900a",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/south-orange-county/58581a836630e24c4487900a",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c46bdadb30820b23c1f3",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "South Orange County",
+         "subregion" : "58581a836630e24c4487900a",
+         "type" : "subregion",
+         "updatedAt" : "2023-01-11T01:26:29.182Z"
+      },
+      {
+         "_id" : "58f7edf1dadb30820bb438b4",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5397100&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/sonoma-county/5397100",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/sonoma-county-surfing-and-beaches/5397100",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Sonoma County",
+         "geonameId" : 5397100,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5397100,
+            "lat" : "38.52529",
+            "lng" : "-122.92254",
+            "name" : "Sonoma County",
+            "population" : 483878,
+            "toponymName" : "Sonoma County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -122.92254,
+               38.52529
+            ],
+            "type" : "Point"
+         },
+         "name" : "Sonoma County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7eee8dadb30820bb54c42",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5372163&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/mendocino-county/5372163",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/mendocino-county-surfing-and-beaches/5372163",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Mendocino County",
+         "geonameId" : 5372163,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5372163,
+            "lat" : "39.43362",
+            "lng" : "-123.43155",
+            "name" : "Mendocino County",
+            "population" : 87841,
+            "toponymName" : "Mendocino County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -123.43155,
+               39.43362
+            ],
+            "type" : "Point"
+         },
+         "name" : "Mendocino County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7edeadadb30820bb43094",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44878fd2&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44878fd2",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/humboldt/58581a836630e24c44878fd2",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c3acdadb30820b22e4ff",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Humboldt",
+         "subregion" : "58581a836630e24c44878fd2",
+         "type" : "subregion",
+         "updatedAt" : "2022-11-07T21:20:07.924Z"
+      },
+      {
+         "_id" : "58f7edeedadb30820bb43583",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=5562484&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/california/del-norte-county/5562484",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states/california/del-norte-county-surfing-and-beaches/5562484",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 0,
+         "enumeratedPath" : ",Earth,North America,United States,California,Del Norte County",
+         "geonameId" : 5562484,
+         "geonames" : {
+            "adminCode1" : "CA",
+            "adminName1" : "California",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "ADM2",
+            "fcodeName" : "second-order administrative division",
+            "geonameId" : 5562484,
+            "lat" : "41.74496",
+            "lng" : "-123.95781",
+            "name" : "Del Norte County",
+            "population" : 28610,
+            "toponymName" : "Del Norte County"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "location" : {
+            "coordinates" : [
+               -123.95781,
+               41.74496
+            ],
+            "type" : "Point"
+         },
+         "name" : "Del Norte County",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ededdadb30820bb434e6",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=58581a836630e24c44879009&type=subregion",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "http://spots-api.prod.surfline.com/admin/subregions/58581a836630e24c44879009",
+                  "key" : "api"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-forecasts/marin-county/58581a836630e24c44879009",
+                  "key" : "www"
+               }
+            ]
+         },
+         "category" : "surfline",
+         "depth" : 0,
+         "hasSpots" : true,
+         "liesIn" : [
+            "5908c3acdadb30820b22e4ff",
+            "58f7ed51dadb30820bb387a6"
+         ],
+         "name" : "Marin County",
+         "subregion" : "58581a836630e24c44879009",
+         "type" : "subregion",
+         "updatedAt" : "2022-11-07T21:28:56.954Z"
+      }
+   ],
+   "enumeratedPath" : ",Earth,North America,United States,California",
+   "geonameId" : 5332921,
+   "geonames" : {
+      "adminCode1" : "CA",
+      "adminName1" : "California",
+      "countryCode" : "US",
+      "countryId" : "6252001",
+      "countryName" : "United States",
+      "fcl" : "A",
+      "fclName" : "country, state, region,...",
+      "fcode" : "ADM1",
+      "fcodeName" : "first-order administrative division",
+      "geonameId" : 5332921,
+      "lat" : "37.25022",
+      "lng" : "-119.75126",
+      "name" : "California",
+      "population" : 37691912,
+      "toponymName" : "California"
+   },
+   "hasSpots" : true,
+   "in" : [
+      {
+         "_id" : "58f7ed51dadb30820bb38782",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=6295630&type=geoname",
+                  "key" : "taxonomy"
+               },
+               null,
+               null
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 3,
+         "enumeratedPath" : ",Earth",
+         "geonameId" : 6295630,
+         "geonames" : {
+            "adminName1" : "",
+            "fcl" : "L",
+            "fclName" : "parks,area, ...",
+            "fcode" : "AREA",
+            "fcodeName" : "area",
+            "geonameId" : 6295630,
+            "lat" : "0",
+            "lng" : "0",
+            "name" : "Earth",
+            "population" : 6814400000,
+            "toponymName" : "Earth"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            null
+         ],
+         "location" : {
+            "coordinates" : [
+               0,
+               0
+            ],
+            "type" : "Point"
+         },
+         "name" : "Earth",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed51dadb30820bb38791",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=6255149&type=geoname",
+                  "key" : "taxonomy"
+               },
+               null,
+               null
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 2,
+         "enumeratedPath" : ",Earth,North America",
+         "geonameId" : 6255149,
+         "geonames" : {
+            "adminName1" : "",
+            "fcl" : "L",
+            "fclName" : "parks,area, ...",
+            "fcode" : "CONT",
+            "fcodeName" : "continent",
+            "geonameId" : 6255149,
+            "lat" : "46.07323",
+            "lng" : "-100.54688",
+            "name" : "North America",
+            "population" : 0,
+            "toponymName" : "North America"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb38782"
+         ],
+         "location" : {
+            "coordinates" : [
+               -100.54688,
+               46.07323
+            ],
+            "type" : "Point"
+         },
+         "name" : "North America",
+         "type" : "geoname"
+      },
+      {
+         "_id" : "58f7ed51dadb30820bb3879c",
+         "associated" : {
+            "links" : [
+               {
+                  "href" : "http://spots-api.prod.surfline.com/taxonomy?id=6252001&type=geoname",
+                  "key" : "taxonomy"
+               },
+               {
+                  "href" : "https://www.surfline.com/surf-reports-forecasts-cams/united-states/6252001",
+                  "key" : "www"
+               },
+               {
+                  "href" : "https://www.surfline.com/travel/united-states-surfing-and-beaches/6252001",
+                  "key" : "travel"
+               }
+            ]
+         },
+         "category" : "geonames",
+         "depth" : 1,
+         "enumeratedPath" : ",Earth,North America,United States",
+         "geonameId" : 6252001,
+         "geonames" : {
+            "adminCode1" : "00",
+            "adminName1" : "",
+            "countryCode" : "US",
+            "countryId" : "6252001",
+            "countryName" : "United States",
+            "fcl" : "A",
+            "fclName" : "country, state, region,...",
+            "fcode" : "PCLI",
+            "fcodeName" : "independent political entity",
+            "geonameId" : 6252001,
+            "lat" : "39.76",
+            "lng" : "-98.5",
+            "name" : "United States",
+            "population" : 310232863,
+            "toponymName" : "United States"
+         },
+         "hasSpots" : true,
+         "liesIn" : [
+            "58f7ed51dadb30820bb38791"
+         ],
+         "location" : {
+            "coordinates" : [
+               -98.5,
+               39.76
+            ],
+            "type" : "Point"
+         },
+         "name" : "United States",
+         "type" : "geoname"
+      }
+   ],
+   "liesIn" : [
+      "58f7ed51dadb30820bb3879c"
+   ],
+   "location" : {
+      "coordinates" : [
+         -119.75126,
+         37.25022
+      ],
+      "type" : "Point"
+   },
+   "name" : "California",
+   "type" : "geoname"
+}
