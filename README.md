@@ -44,14 +44,14 @@ type TaxonomyResponse = Taxonomy & {
 
 _A few things to keep in mind_
 
-* Almost all queries should use `TaxonomyQuery.type=taxonomy`, querying for other types is not frequently useful
+* Most queries should use `TaxonomyQuery.type=taxonomy`, other types are not frequently useful
 * If setting `TaxonomyQuery.type` make sure `TaxonomyQuery.id` references a taxonomy of that type (eg. if `type=spot` make sure to use `SpotTaxonomy.spot` as the id)
 * `maxDepth` controls how many "levels" of data is returned (eg. if fetching the "Earth" taxonomy, a depth of 0 returns continents, while a depth of 1 returns continents and countries)
 * Fetching "Earth" with a `maxDepth` of 6 returns almost every taxonomy (with a few edge case exceptions)
 
 **`fetchForecast`**
 
-Surfline provides a number of different forecasts available to query. All possible forecast types are enumerated by `ForecastType`. Note: a `combined` forecast is useful for a quick overview of all the other forecast types, but it doesn't provide quite the same level of detail as individual forecasts. 
+Surfline provides a number of different forecasts available to query, enumerated by `ForecastType`.
 
 ```ts
 function fetchForecast(q: ForecastQuery): Promise<ForecastResponse[typeof q['type']]>
@@ -78,6 +78,7 @@ export declare interface ForecastResponse {
 
 _A few things to keep in mind_
 
+* `combined` forecast is useful for a quick overview, but doesn't provide quite the same level of detail as individual forecasts
 * Use `days` to specify how far out you want the forecast. Some forecasts are limited to 6 days max.
 * Use `intervalHours` to specify granularity of data (eg. `intervalHours=3` returns 8 forecast items per day)
 * `intervalHours` doesn't seem to do anything with `tide` forecasts, those always default to 1 hour intervals
