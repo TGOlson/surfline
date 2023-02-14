@@ -1,10 +1,10 @@
+export type TaxonomyType = 'spot' | 'subregion' | 'region' | 'geoname';
+
 export type TaxonomyQuery = {
   id: string,
   type?: 'taxonomy' | TaxonomyType,
   maxDepth?: number,
 };
-
-export type TaxonomyType = 'spot' | 'subregion' | 'region' | 'geoname';
 
 export type Location = {
   coordinates : [number, number],

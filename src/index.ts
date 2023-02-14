@@ -1,5 +1,4 @@
-const foo: string = 'foo';
+import { fetchForecast } from "./forecasts/index";
+import { fetchTaxonomy } from "./taxonomy/index";
 
-console.log(foo);
-
-// const 
+export {fetchForecast, fetchTaxonomy};

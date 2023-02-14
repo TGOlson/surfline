@@ -1,0 +1,1614 @@
+{
+  "associated": {
+    "units": {
+      "temperature": "F",
+      "tideHeight": "FT",
+      "swellHeight": "FT",
+      "waveHeight": "FT",
+      "windSpeed": "KTS",
+      "pressure": "MB"
+    },
+    "utcOffset": -8,
+    "location": {
+      "lon": -117.2647886555987,
+      "lat": 32.8060476681448
+    },
+    "forecastLocation": {
+      "lon": -117.269,
+      "lat": 32.803
+    },
+    "offshoreLocation": {
+      "lon": -117.35,
+      "lat": 32.8
+    },
+    "runInitializationTimestamp": 1676311200
+  },
+  "data": {
+    "wave": [
+      {
+        "timestamp": 1676275200,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 2.8080733333333336,
+            "max": 3.9067108333333334
+          }
+        },
+        "swells": [
+          {
+            "height": 2.48858,
+            "period": 12,
+            "impact": 0.2986,
+            "direction": 289.70251,
+            "directionMin": 286.46979000000005,
+            "optimalScore": 1
+          },
+          {
+            "height": 2.3584,
+            "period": 7,
+            "impact": 0.29,
+            "direction": 250.09839,
+            "directionMin": 240.068375,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.28474,
+            "period": 12,
+            "impact": 0.2105,
+            "direction": 200.84619,
+            "directionMin": 194.46702000000002,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.43579,
+            "period": 15,
+            "impact": 0.1052,
+            "direction": 263.54517,
+            "directionMin": 259.83598,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.29245,
+            "period": 18,
+            "impact": 0.0873,
+            "direction": 206.73914,
+            "directionMin": 201.26184999999998,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676286000,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 2.7257275,
+            "max": 3.7217824999999998
+          }
+        },
+        "swells": [
+          {
+            "height": 2.298,
+            "period": 12,
+            "impact": 0.285,
+            "direction": 289.1051,
+            "directionMin": 285.314835,
+            "optimalScore": 1
+          },
+          {
+            "height": 2.23051,
+            "period": 7,
+            "impact": 0.2774,
+            "direction": 248.35681,
+            "directionMin": 238.04861,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.20135,
+            "period": 12,
+            "impact": 0.2033,
+            "direction": 199.97949,
+            "directionMin": 193.9215,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.42087,
+            "period": 17,
+            "impact": 0.114,
+            "direction": 212.40289,
+            "directionMin": 205.362005,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.35856,
+            "period": 21,
+            "impact": 0.1118,
+            "direction": 261.15747,
+            "directionMin": 253.39163499999998,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676296800,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 3,
+            "max": 4
+          }
+        },
+        "swells": [
+          {
+            "height": 2.14639,
+            "period": 12,
+            "impact": 0.2651,
+            "direction": 289.73285,
+            "directionMin": 286.225735,
+            "optimalScore": 1
+          },
+          {
+            "height": 2.18596,
+            "period": 7,
+            "impact": 0.2679,
+            "direction": 249.7793,
+            "directionMin": 238.85070000000002,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.15837,
+            "period": 12,
+            "impact": 0.1955,
+            "direction": 200.35797,
+            "directionMin": 194.016055,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.47254,
+            "period": 17,
+            "impact": 0.1259,
+            "direction": 212.6441,
+            "directionMin": 205.62368,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.48586,
+            "period": 21,
+            "impact": 0.1371,
+            "direction": 262.08014,
+            "directionMin": 254.78735499999996,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676307600,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 3.0246075,
+            "max": 4
+          }
+        },
+        "swells": [
+          {
+            "height": 1.52329,
+            "period": 11,
+            "impact": 0.1957,
+            "direction": 291.27832,
+            "directionMin": 289.478535,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.42162,
+            "period": 7,
+            "impact": 0.2895,
+            "direction": 253.21655,
+            "directionMin": 242.69715000000002,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.08865,
+            "period": 12,
+            "impact": 0.1858,
+            "direction": 198.79932,
+            "directionMin": 193.775455,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.59826,
+            "period": 7,
+            "impact": 0.164,
+            "direction": 291.64594,
+            "directionMin": 289.659635,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.58491,
+            "period": 21,
+            "impact": 0.1566,
+            "direction": 260.76416,
+            "directionMin": 253.906025,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676318400,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 3,
+            "max": 4
+          }
+        },
+        "swells": [
+          {
+            "height": 1.43064,
+            "period": 11,
+            "impact": 0.1829,
+            "direction": 291.34357,
+            "directionMin": 289.5178,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.58123,
+            "period": 7,
+            "impact": 0.3104,
+            "direction": 252.33777,
+            "directionMin": 241.57630500000002,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.04026,
+            "period": 12,
+            "impact": 0.1774,
+            "direction": 199.89172,
+            "directionMin": 193.74696,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.58783,
+            "period": 7,
+            "impact": 0.1627,
+            "direction": 291.81262,
+            "directionMin": 289.69203,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.60735,
+            "period": 20,
+            "impact": 0.1582,
+            "direction": 260.1734,
+            "directionMin": 253.38950000000003,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676329200,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 2.9593233333333337,
+            "max": 3.9621666666666666
+          }
+        },
+        "swells": [
+          {
+            "height": 1.58356,
+            "period": 11,
+            "impact": 0.1934,
+            "direction": 291.27979,
+            "directionMin": 289.373615,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.88858,
+            "period": 7,
+            "impact": 0.3381,
+            "direction": 243.81458,
+            "directionMin": 229.73941000000002,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.98865,
+            "period": 12,
+            "impact": 0.1655,
+            "direction": 200.44745,
+            "directionMin": 194.172205,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.3018,
+            "period": 7,
+            "impact": 0.1329,
+            "direction": 292.03357,
+            "directionMin": 289.76308,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.69787,
+            "period": 18,
+            "impact": 0.1618,
+            "direction": 263.48773,
+            "directionMin": 258.448675,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676340000,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 2.6358283333333334,
+            "max": 3.6429366666666665
+          }
+        },
+        "swells": [
+          {
+            "height": 1.99012,
+            "period": 11,
+            "impact": 0.2243,
+            "direction": 291.61121,
+            "directionMin": 289.547675,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.90174,
+            "period": 7,
+            "impact": 0.3277,
+            "direction": 244.03491,
+            "directionMin": 230.154485,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.94547,
+            "period": 11,
+            "impact": 0.1513,
+            "direction": 200.04938,
+            "directionMin": 194.15567000000001,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.67224,
+            "period": 18,
+            "impact": 0.1217,
+            "direction": 290.0744,
+            "directionMin": 287.88579000000004,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.7541,
+            "period": 18,
+            "impact": 0.1671,
+            "direction": 260.85828,
+            "directionMin": 254.776795,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676350800,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 2.7388433333333335,
+            "max": 3.7502166666666668
+          }
+        },
+        "swells": [
+          {
+            "height": 1.89652,
+            "period": 11,
+            "impact": 0.2166,
+            "direction": 291.75824,
+            "directionMin": 289.77366,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.89265,
+            "period": 7,
+            "impact": 0.3243,
+            "direction": 246.17676,
+            "directionMin": 233.886695,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.8689,
+            "period": 11,
+            "impact": 0.1409,
+            "direction": 198.0968,
+            "directionMin": 193.22502,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.78474,
+            "period": 17,
+            "impact": 0.1363,
+            "direction": 291.16205,
+            "directionMin": 289.52498,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.80751,
+            "period": 18,
+            "impact": 0.174,
+            "direction": 263.2757,
+            "directionMin": 256.80731999999995,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676361600,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 2,
+          "max": 3,
+          "optimalScore": 2,
+          "plus": true,
+          "humanRelation": "Thigh to stomach",
+          "raw": {
+            "min": 2.2841183333333337,
+            "max": 3.2669466666666667
+          }
+        },
+        "swells": [
+          {
+            "height": 1.99482,
+            "period": 11,
+            "impact": 0.1979,
+            "direction": 291.64252,
+            "directionMin": 289.71923,
+            "optimalScore": 0
+          },
+          {
+            "height": 3.12182,
+            "period": 7,
+            "impact": 0.2985,
+            "direction": 245.85608,
+            "directionMin": 234.22472,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.79629,
+            "period": 11,
+            "impact": 0.1155,
+            "direction": 197.60596,
+            "directionMin": 192.84087000000002,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.68901,
+            "period": 15,
+            "impact": 0.1256,
+            "direction": 211.71985,
+            "directionMin": 204.27966,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.75518,
+            "period": 16,
+            "impact": 0.1127,
+            "direction": 291.8736,
+            "directionMin": 289.921305,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.80915,
+            "period": 17,
+            "impact": 0.1497,
+            "direction": 265.8504,
+            "directionMin": 261.802955,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676372400,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 3.1168,
+            "max": 3.67454
+          }
+        },
+        "swells": [
+          {
+            "height": 2.30653,
+            "period": 12,
+            "impact": 0.2417,
+            "direction": 291.5249,
+            "directionMin": 289.58797,
+            "optimalScore": 1
+          },
+          {
+            "height": 2.92884,
+            "period": 7,
+            "impact": 0.2913,
+            "direction": 246.1969,
+            "directionMin": 234.412595,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.74961,
+            "period": 15,
+            "impact": 0.1375,
+            "direction": 210.01477,
+            "directionMin": 203.36382,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.01493,
+            "period": 16,
+            "impact": 0.1445,
+            "direction": 291.31512,
+            "directionMin": 289.62379,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.9919,
+            "period": 16,
+            "impact": 0.1777,
+            "direction": 266.51758,
+            "directionMin": 262.646845,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676383200,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 3,
+          "max": 4,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Waist to chest",
+          "raw": {
+            "min": 3.24803,
+            "max": 3.80577
+          }
+        },
+        "swells": [
+          {
+            "height": 2.82917,
+            "period": 11,
+            "impact": 0.2479,
+            "direction": 291.16241,
+            "directionMin": 288.95537,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.93383,
+            "period": 7,
+            "impact": 0.2567,
+            "direction": 247.57111,
+            "directionMin": 235.413635,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.75919,
+            "period": 11,
+            "impact": 0.1025,
+            "direction": 197.6106,
+            "directionMin": 192.667055,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.79288,
+            "period": 15,
+            "impact": 0.129,
+            "direction": 207.87982,
+            "directionMin": 201.59073999999998,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.34147,
+            "period": 19,
+            "impact": 0.0854,
+            "direction": 226.17542,
+            "directionMin": 220.408955,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.15131,
+            "period": 16,
+            "impact": 0.1785,
+            "direction": 267.00836,
+            "directionMin": 262.96266499999996,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676394000,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 4,
+          "max": 6,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Chest to overhead",
+          "raw": {
+            "min": 4.42913,
+            "max": 5.28215
+          }
+        },
+        "swells": [
+          {
+            "height": 3.10125,
+            "period": 11,
+            "impact": 0.2363,
+            "direction": 291.68628,
+            "directionMin": 289.671805,
+            "optimalScore": 0
+          },
+          {
+            "height": 5.41093,
+            "period": 6,
+            "impact": 0.3239,
+            "direction": 258.80359,
+            "directionMin": 246.425185,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.64738,
+            "period": 11,
+            "impact": 0.076,
+            "direction": 196.27692,
+            "directionMin": 191.92413,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.92261,
+            "period": 15,
+            "impact": 0.1271,
+            "direction": 207.59821,
+            "directionMin": 200.82292999999999,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.4232,
+            "period": 19,
+            "impact": 0.0862,
+            "direction": 222.94592,
+            "directionMin": 216.256605,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.15292,
+            "period": 16,
+            "impact": 0.1505,
+            "direction": 268.39551,
+            "directionMin": 263.854965,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676404800,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 4,
+          "max": 6,
+          "optimalScore": 2,
+          "plus": true,
+          "humanRelation": "Chest to 1ft overhead",
+          "raw": {
+            "min": 5.44619,
+            "max": 6.49606
+          }
+        },
+        "swells": [
+          {
+            "height": 3.22989,
+            "period": 12,
+            "impact": 0.2118,
+            "direction": 291.70667,
+            "directionMin": 289.79644499999995,
+            "optimalScore": 1
+          },
+          {
+            "height": 8.0794,
+            "period": 8,
+            "impact": 0.4045,
+            "direction": 270.68445,
+            "directionMin": 258.04111,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.6289,
+            "period": 11,
+            "impact": 0.0644,
+            "direction": 196.16705,
+            "directionMin": 191.744005,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.92116,
+            "period": 15,
+            "impact": 0.1072,
+            "direction": 207.35132,
+            "directionMin": 200.98542999999998,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.46654,
+            "period": 19,
+            "impact": 0.0797,
+            "direction": 226.49939,
+            "directionMin": 218.51802,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.14954,
+            "period": 15,
+            "impact": 0.1323,
+            "direction": 264.23401,
+            "directionMin": 260.71374000000003,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676415600,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 6,
+          "max": 8,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Overhead to well overhead",
+          "raw": {
+            "min": 6.10236,
+            "max": 7.08661
+          }
+        },
+        "swells": [
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 10.8294,
+            "period": 9,
+            "impact": 0.6763,
+            "direction": 274.13385,
+            "directionMin": 262.514425,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.59419,
+            "period": 11,
+            "impact": 0.0815,
+            "direction": 196.0932,
+            "directionMin": 191.59392499999998,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.82375,
+            "period": 14,
+            "impact": 0.1293,
+            "direction": 204.86969,
+            "directionMin": 199.77349999999998,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.44003,
+            "period": 19,
+            "impact": 0.1,
+            "direction": 217.36755,
+            "directionMin": 209.62171,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676426400,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 8,
+          "max": 10,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "2x overhead",
+          "raw": {
+            "min": 8.39895,
+            "max": 9.41601
+          }
+        },
+        "swells": [
+          {
+            "height": 0.40617,
+            "period": 19,
+            "impact": 0.0731,
+            "direction": 288.65356,
+            "directionMin": 286.52686500000004,
+            "optimalScore": 0
+          },
+          {
+            "height": 12.23642,
+            "period": 10,
+            "impact": 0.7564,
+            "direction": 277.73199,
+            "directionMin": 266.36415999999997,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.56312,
+            "period": 11,
+            "impact": 0.0781,
+            "direction": 195.27271,
+            "directionMin": 191.31842999999998,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.36808,
+            "period": 18,
+            "impact": 0.0794,
+            "direction": 207.09631,
+            "directionMin": 201.92907499999998,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676437200,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 8,
+          "max": 12,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "2x overhead",
+          "raw": {
+            "min": 10.33465,
+            "max": 11.7126
+          }
+        },
+        "swells": [
+          {
+            "height": 0.40692,
+            "period": 19,
+            "impact": 0.0488,
+            "direction": 290.90356,
+            "directionMin": 289.45789,
+            "optimalScore": 0
+          },
+          {
+            "height": 8.34012,
+            "period": 10,
+            "impact": 0.4362,
+            "direction": 261.88531,
+            "directionMin": 253.900055,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.54475,
+            "period": 11,
+            "impact": 0.0507,
+            "direction": 196.43402,
+            "directionMin": 191.95510000000002,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.76358,
+            "period": 13,
+            "impact": 0.0777,
+            "direction": 204.53253,
+            "directionMin": 199.27821500000002,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.39199,
+            "period": 18,
+            "impact": 0.0547,
+            "direction": 202.55859,
+            "directionMin": 198.18777,
+            "optimalScore": 0
+          },
+          {
+            "height": 9.46811,
+            "period": 11,
+            "impact": 0.3319,
+            "direction": 298.01239,
+            "directionMin": 290.672055,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676448000,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 6,
+          "max": 8,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Overhead to well overhead",
+          "raw": {
+            "min": 6.13517,
+            "max": 7.11942
+          }
+        },
+        "swells": [
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 4.87001,
+            "period": 10,
+            "impact": 0.318,
+            "direction": 257.05066,
+            "directionMin": 248.861235,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.52703,
+            "period": 14,
+            "impact": 0.2138,
+            "direction": 266.36041,
+            "directionMin": 262.15772,
+            "optimalScore": 1
+          },
+          {
+            "height": 0.9188,
+            "period": 13,
+            "impact": 0.0902,
+            "direction": 202.00665,
+            "directionMin": 195.96939,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.58399,
+            "period": 17,
+            "impact": 0.0732,
+            "direction": 206.59998,
+            "directionMin": 200.664965,
+            "optimalScore": 0
+          },
+          {
+            "height": 8.78196,
+            "period": 9,
+            "impact": 0.3005,
+            "direction": 297.77069,
+            "directionMin": 288.68687,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676458800,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 8,
+          "max": 10,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "2x overhead",
+          "raw": {
+            "min": 7.21785,
+            "max": 8.30053
+          }
+        },
+        "swells": [
+          {
+            "height": 0.76158,
+            "period": 18,
+            "impact": 0.0908,
+            "direction": 290.07538,
+            "directionMin": 289.642085,
+            "optimalScore": 0
+          },
+          {
+            "height": 4.68284,
+            "period": 9,
+            "impact": 0.3479,
+            "direction": 259.81305,
+            "directionMin": 251.807315,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.90387,
+            "period": 13,
+            "impact": 0.1067,
+            "direction": 199.68713,
+            "directionMin": 195.04204,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.72283,
+            "period": 16,
+            "impact": 0.1042,
+            "direction": 208.77625,
+            "directionMin": 201.781135,
+            "optimalScore": 0
+          },
+          {
+            "height": 7.06699,
+            "period": 11,
+            "impact": 0.345,
+            "direction": 298.27606,
+            "directionMin": 289.368245,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676469600,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 4,
+          "max": 6,
+          "optimalScore": 2,
+          "plus": true,
+          "humanRelation": "Chest to 1ft overhead",
+          "raw": {
+            "min": 5.18373,
+            "max": 6.16798
+          }
+        },
+        "swells": [
+          {
+            "height": 0.96739,
+            "period": 13,
+            "impact": 0.1093,
+            "direction": 201.03412,
+            "directionMin": 195.63663,
+            "optimalScore": 0
+          },
+          {
+            "height": 3.83097,
+            "period": 8,
+            "impact": 0.2703,
+            "direction": 258.86072,
+            "directionMin": 250.13404000000003,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.97047,
+            "period": 12,
+            "impact": 0.2162,
+            "direction": 291.75836,
+            "directionMin": 289.82487,
+            "optimalScore": 1
+          },
+          {
+            "height": 1.52178,
+            "period": 17,
+            "impact": 0.1874,
+            "direction": 266.06696,
+            "directionMin": 261.96873,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 4.43527,
+            "period": 9,
+            "impact": 0.2115,
+            "direction": 298.15668,
+            "directionMin": 290.85983,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676480400,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 5,
+          "max": 7,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Head to 2ft overhead",
+          "raw": {
+            "min": 5.97113,
+            "max": 6.92257
+          }
+        },
+        "swells": [
+          {
+            "height": 0.95279,
+            "period": 13,
+            "impact": 0.1155,
+            "direction": 199.75665,
+            "directionMin": 195.13252,
+            "optimalScore": 0
+          },
+          {
+            "height": 3.1919,
+            "period": 8,
+            "impact": 0.246,
+            "direction": 257.75342,
+            "directionMin": 248.64399,
+            "optimalScore": 0
+          },
+          {
+            "height": 4.35207,
+            "period": 12,
+            "impact": 0.2895,
+            "direction": 294.84631,
+            "directionMin": 289.733515,
+            "optimalScore": 2
+          },
+          {
+            "height": 1.45518,
+            "period": 17,
+            "impact": 0.1928,
+            "direction": 267.05627,
+            "directionMin": 263.407825,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.48891,
+            "period": 16,
+            "impact": 0.1507,
+            "direction": 290.34528,
+            "directionMin": 289.401565,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676491200,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 4,
+          "max": 5,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Chest to head",
+          "raw": {
+            "min": 4.16667,
+            "max": 4.98688
+          }
+        },
+        "swells": [
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.7252,
+            "period": 7,
+            "impact": 0.2333,
+            "direction": 257.05298,
+            "directionMin": 248.01476499999998,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.84091,
+            "period": 12,
+            "impact": 0.2411,
+            "direction": 291.67206,
+            "directionMin": 289.76409,
+            "optimalScore": 1
+          },
+          {
+            "height": 1.39636,
+            "period": 16,
+            "impact": 0.1888,
+            "direction": 267.55426,
+            "directionMin": 263.53674,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.58576,
+            "period": 16,
+            "impact": 0.171,
+            "direction": 290.22137,
+            "directionMin": 289.29218,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.48757,
+            "period": 8,
+            "impact": 0.1598,
+            "direction": 297.2431,
+            "directionMin": 291.18003000000004,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676502000,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 4,
+          "max": 6,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Chest to overhead",
+          "raw": {
+            "min": 4.23228,
+            "max": 5.21654
+          }
+        },
+        "swells": [
+          {
+            "height": 0.9772,
+            "period": 13,
+            "impact": 0.1323,
+            "direction": 200.8161,
+            "directionMin": 195.12952,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.39534,
+            "period": 7,
+            "impact": 0.2154,
+            "direction": 256.74335,
+            "directionMin": 247.83748500000002,
+            "optimalScore": 0
+          },
+          {
+            "height": 3.10348,
+            "period": 12,
+            "impact": 0.2435,
+            "direction": 293.73669,
+            "directionMin": 289.263155,
+            "optimalScore": 1
+          },
+          {
+            "height": 1.27523,
+            "period": 16,
+            "impact": 0.1847,
+            "direction": 266.24365,
+            "directionMin": 262.40176,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.05472,
+            "period": 16,
+            "impact": 0.2178,
+            "direction": 290.09967,
+            "directionMin": 288.63805,
+            "optimalScore": 1
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676512800,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 4,
+          "max": 6,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Chest to overhead",
+          "raw": {
+            "min": 4.65879,
+            "max": 5.54462
+          }
+        },
+        "swells": [
+          {
+            "height": 0.5023,
+            "period": 18,
+            "impact": 0.1037,
+            "direction": 235.05975,
+            "directionMin": 232.509575,
+            "optimalScore": 0
+          },
+          {
+            "height": 2.14462,
+            "period": 7,
+            "impact": 0.1991,
+            "direction": 256.53503,
+            "directionMin": 247.804495,
+            "optimalScore": 0
+          },
+          {
+            "height": 3.44777,
+            "period": 15,
+            "impact": 0.3302,
+            "direction": 292.12445,
+            "directionMin": 288.49594,
+            "optimalScore": 2
+          },
+          {
+            "height": 1.19938,
+            "period": 16,
+            "impact": 0.1794,
+            "direction": 265.71265,
+            "directionMin": 261.7808,
+            "optimalScore": 0
+          },
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.23219,
+            "period": 15,
+            "impact": 0.1812,
+            "direction": 202.53693,
+            "directionMin": 196.215685,
+            "optimalScore": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 1676523600,
+        "probability": null,
+        "utcOffset": -8,
+        "surf": {
+          "min": 4,
+          "max": 5,
+          "optimalScore": 2,
+          "plus": false,
+          "humanRelation": "Chest to head",
+          "raw": {
+            "min": 4.00262,
+            "max": 4.79003
+          }
+        },
+        "swells": [
+          {
+            "height": 0,
+            "period": 0,
+            "impact": 0,
+            "direction": 0,
+            "directionMin": 0,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.94843,
+            "period": 7,
+            "impact": 0.1996,
+            "direction": 257.26898,
+            "directionMin": 248.17012,
+            "optimalScore": 0
+          },
+          {
+            "height": 3.14459,
+            "period": 14,
+            "impact": 0.3298,
+            "direction": 291.77808,
+            "directionMin": 288.81761,
+            "optimalScore": 1
+          },
+          {
+            "height": 1.15092,
+            "period": 16,
+            "impact": 0.1897,
+            "direction": 267.05524,
+            "directionMin": 262.793855,
+            "optimalScore": 0
+          },
+          {
+            "height": 0.69334,
+            "period": 12,
+            "impact": 0.1076,
+            "direction": 197.99438,
+            "directionMin": 193.679835,
+            "optimalScore": 0
+          },
+          {
+            "height": 1.01362,
+            "period": 15,
+            "impact": 0.1662,
+            "direction": 204.27478,
+            "directionMin": 196.994195,
+            "optimalScore": 0
+          }
+        ]
+      }
+    ]
+  }
+}

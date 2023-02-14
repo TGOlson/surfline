@@ -1,0 +1,205 @@
+{
+  "associated": {
+    "location": {
+      "lon": -117.2647886555987,
+      "lat": 32.8060476681448
+    },
+    "runInitializationTimestamp": 1676311200
+  },
+  "data": {
+    "rating": [
+      {
+        "timestamp": 1676275200,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR",
+          "value": 3
+        }
+      },
+      {
+        "timestamp": 1676286000,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR",
+          "value": 2.67
+        }
+      },
+      {
+        "timestamp": 1676296800,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR",
+          "value": 3
+        }
+      },
+      {
+        "timestamp": 1676307600,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR_TO_FAIR",
+          "value": 2.25
+        }
+      },
+      {
+        "timestamp": 1676318400,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR_TO_FAIR",
+          "value": 2
+        }
+      },
+      {
+        "timestamp": 1676329200,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR_TO_FAIR",
+          "value": 2
+        }
+      },
+      {
+        "timestamp": 1676340000,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR",
+          "value": 2.83
+        }
+      },
+      {
+        "timestamp": 1676350800,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR",
+          "value": 3
+        }
+      },
+      {
+        "timestamp": 1676361600,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR_TO_FAIR",
+          "value": 2
+        }
+      },
+      {
+        "timestamp": 1676372400,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR_TO_FAIR",
+          "value": 2
+        }
+      },
+      {
+        "timestamp": 1676383200,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR_TO_FAIR",
+          "value": 2
+        }
+      },
+      {
+        "timestamp": 1676394000,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR_TO_FAIR",
+          "value": 2
+        }
+      },
+      {
+        "timestamp": 1676404800,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR_TO_FAIR",
+          "value": 2
+        }
+      },
+      {
+        "timestamp": 1676415600,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR",
+          "value": 1
+        }
+      },
+      {
+        "timestamp": 1676426400,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR",
+          "value": 1
+        }
+      },
+      {
+        "timestamp": 1676437200,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR",
+          "value": 1
+        }
+      },
+      {
+        "timestamp": 1676448000,
+        "utcOffset": -8,
+        "rating": {
+          "key": "POOR_TO_FAIR",
+          "value": 2
+        }
+      },
+      {
+        "timestamp": 1676458800,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR_TO_GOOD",
+          "value": 4
+        }
+      },
+      {
+        "timestamp": 1676469600,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR_TO_GOOD",
+          "value": 4
+        }
+      },
+      {
+        "timestamp": 1676480400,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR_TO_GOOD",
+          "value": 4
+        }
+      },
+      {
+        "timestamp": 1676491200,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR_TO_GOOD",
+          "value": 4
+        }
+      },
+      {
+        "timestamp": 1676502000,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR",
+          "value": 3
+        }
+      },
+      {
+        "timestamp": 1676512800,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR_TO_GOOD",
+          "value": 4
+        }
+      },
+      {
+        "timestamp": 1676523600,
+        "utcOffset": -8,
+        "rating": {
+          "key": "FAIR_TO_GOOD",
+          "value": 4
+        }
+      }
+    ]
+  }
+}
