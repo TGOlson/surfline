@@ -27,7 +27,7 @@ fetchTaxonomy({id: <some-id>}).then((res: TaxonomyResponse) => {
   // eg. fetch all taxonomies in res.contains
 })
 
-// note: for initial exploration `fetchEarthTaxonomy` can be used as a convenient starting point
+// or for initial exploration `fetchEarthTaxonomy` can be used as a convenient starting point
 fetchEarthTaxonomy().then((res: TaxonomyResponse) => { ... })
 ```
 
@@ -54,11 +54,13 @@ export type TaxonomyQuery = {
   id: string,
 
   // Most queries should use `type=taxonomy`, other types are not frequently useful
-  // If setting `type`, ensure `id` references a taxonomy of that type (eg. if `type=spot` use `SpotTaxonomy.spot` as id)
+  // If setting `type`, ensure `id` references a taxonomy of that type 
+  // (eg. if `type=spot` use `SpotTaxonomy.spot` as id)
   type?: 'taxonomy' | TaxonomyType,
 
   // `maxDepth` controls how many "levels" of data is returned 
-  // eg. if fetching "Earth" taxonomy, a depth of 0 returns continents, while a depth of 1 returns continents and countries
+  // eg. if fetching "Earth" taxonomy, a depth of 0 returns continents, 
+  // while a depth of 1 returns continents and countries
   maxDepth?: number,
 };
 
@@ -83,18 +85,22 @@ export type ForecastType
   | 'tides' 
   | 'weather' 
   | 'conditions' 
-  // `combined` provides a quick overview, but doesn't give the same level of detail as individual forecasts
+  // `combined` provides a quick overview, 
+  // but doesn't give the same level of detail as individual forecasts
   | 'combined';
 
 export type ForecastQuery = {
   spotId: string,
   type: ForecastType,
 
-  // `days` specifies how far out you want the forecast, some forecasts are limited to 6 days max
+  // `days` specifies how far out you want the forecast, 
+  // some forecasts are limited to 6 days max
   days?: number,
 
-  // `intervalHours` specifies granularity of data (eg. `intervalHours=3` returns 8 forecast items per day)
-  // `intervalHours` is ignored for `tide` forecasts, those always default to 1 hour intervals
+  // `intervalHours` specifies granularity of data 
+  // (eg. `intervalHours=3` returns 8 forecast items per day)
+  // `intervalHours` is ignored for `tide` forecasts, 
+  // those always default to 1 hour intervals
   intervalHours?: number,
 };
 
