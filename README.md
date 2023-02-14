@@ -18,6 +18,7 @@ This library exposes two Surfline API calls: `fetchTaxonomy` (used to fetch loca
 
 ```ts
 import {fetchTaxonomy} from 'surfline';
+import {fetchEarthTaxonomy} from 'surfline/taxonomy';
 
 fetchTaxonomy({id: <some-id>}).then((res: TaxonomyResponse) => {
   // do something with result...
@@ -98,10 +99,11 @@ export declare interface ForecastResponse {
 
 _A few things to keep in mind_
 
-* `combined` forecast is useful for a quick overview, but doesn't provide quite the same level of detail as individual forecasts
-* Use `days` to specify how far out you want the forecast. Some forecasts are limited to 6 days max.
-* Use `intervalHours` to specify granularity of data (eg. `intervalHours=3` returns 8 forecast items per day)
+* `combined` provides a quick overview, but doesn't give the same level of detail as individual forecasts
+* `days` specifies how far out you want the forecast, some forecasts are limited to 6 days max
+* `intervalHours` specifies granularity of data (eg. `intervalHours=3` returns 8 forecast items per day)
 * `intervalHours` doesn't seem to do anything with `tide` forecasts, those always default to 1 hour intervals
+* a subset of regional forecast are available from the surfline API (`/regions/forecasts/rating?subregionId=...`), but that is not currently exposed by this library
 
 ### dev
 
