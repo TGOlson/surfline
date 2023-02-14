@@ -2,7 +2,7 @@
 
 Surfline API bindings and types in JS with no external dependencies.
 
-The publically available Surfline API is undocumented, but relatively easy to call. However, the response types are often quite messy, and at times inconsistent. 
+The publicly available Surfline API is undocumented, but relatively easy to call. However, the response types are often quite messy, and at times inconsistent. 
 
 This library provides more clarity of response types by providing rigorous Typescript bindings for the available Surfline API calls. 
 
@@ -44,14 +44,43 @@ type TaxonomyResponse = Taxonomy & {
 
 _A few things to keep in mind_
 
-* Almost all queries should use `TaxonomyQuery.type=taxonomy`, querying for other types' isn't really that useful
+* Almost all queries should use `TaxonomyQuery.type=taxonomy`, querying for other types is not frequently useful
 * If setting `TaxonomyQuery.type` make sure `TaxonomyQuery.id` references a taxonomy of that type (eg. if `type=spot` make sure to use `SpotTaxonomy.spot` as the id)
 * `maxDepth` controls how many "levels" of data is returned (eg. if fetching the "Earth" taxonomy, a depth of 0 returns continents, while a depth of 1 returns continents and countries)
 * Fetching "Earth" with a `maxDepth` of 6 returns almost every taxonomy (with a few edge case exceptions)
 
-**Forecast**
+**`fetchForecast`**
 
-TOOD:
+Surfline provides a number of different forecasts available to query. All possible forecast types are enumerated by `ForecastType`. Note: a `combined` forecast is useful for a quick overview of all the other forecast types, but it doesn't provide quite the same level of detail as individual forecasts. 
+
+```ts
+function fetchForecast(q: ForecastQuery): Promise<ForecastResponse[typeof q['type']]>
+
+export type ForecastType = 'wind' | 'wave' | 'rating' | 'tides' | 'weather' | 'conditions' | 'combined';
+
+export type ForecastQuery = {
+  spotId: string,
+  type: ForecastType,
+  days?: number,
+  intervalHours?: number,
+};
+
+export declare interface ForecastResponse {
+  wind: WindForecast;
+  wave: WaveForecast;
+  rating: RatingForecast;
+  tides: TideForecast;
+  weather: WeatherForecast;
+  conditions: ConditionsForecast;
+  combined: CombinedForecast;
+}
+```
+
+_A few things to keep in mind_
+
+* Use `days` to specify how far out you want the forecast. Some forecasts are limited to 6 days max.
+* Use `intervalHours` to specify granularity of data (eg. `intervalHours=3` returns 8 forecast items per day)
+* `intervalHours` doesn't seem to do anything with `tide` forecasts, those always default to 1 hour intervals
 
 ### dev
 
