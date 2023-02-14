@@ -1,8 +1,9 @@
 {
   "name": "surfline",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Surfline API bindings and types in JS with no external dependencies",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "npx tsc",
     "watch": "npx tsc --watch",
@@ -13,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/TGOlson/surfline.git"
   },
-  "author": "",
+  "author": "Tyler Olson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TGOlson/surfline/issues"
