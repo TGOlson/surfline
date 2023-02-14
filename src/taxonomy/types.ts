@@ -1,7 +1,15 @@
+// useful for more slightly explicit typings later on...
+export type TaxonomyId = string;
+export type SpotId = string;
+export type SubregionId = string;
+export type RegionId = string;
+export type GeonameId = string;
+
 export type TaxonomyType = 'spot' | 'subregion' | 'region' | 'geoname';
 
 export type TaxonomyQuery = {
-  id: string,
+  // TODO: id type should max taxonomy type... but right now they are all strings, so probably not worth adding to typing
+  id: TaxonomyId | SpotId | SubregionId | RegionId | GeonameId,
   type?: 'taxonomy' | TaxonomyType,
   maxDepth?: number,
 };
@@ -19,7 +27,7 @@ export type AssociatedLink = {
 
 // All taxomies include these base properties
 type BaseTaxonomy = {
-  _id: string,
+  _id: TaxonomyId,
   location: Location,
   associated: {
     // observed: all taxonomies have at least 1 non-null link
@@ -49,8 +57,8 @@ type BaseTaxonomy = {
 export type SpotTaxonomy = BaseTaxonomy & {
   type: 'spot',
   category: 'surfline',
-  spot: string,
-  // note: have observed some spots have hasSpots=true, but don't actually contian any spots
+  spot: SpotId,
+  // note: have observed some spots have hasSpots=true, but don't actually contain any spots
   // going to assume this is a data error and keep this typed as-is
   hasSpots: false,
 };
@@ -58,22 +66,22 @@ export type SpotTaxonomy = BaseTaxonomy & {
 export type SubregionTaxonomy = BaseTaxonomy & {
   type: 'subregion',
   category: 'surfline',
-  subregion: string,
+  subregion: SubregionId,
   hasSpots: true,
 };
 
 export type RegionTaxonomy = BaseTaxonomy & {
   type: 'region',
   category: 'surfline',
-  region: string,
+  region: RegionId,
   hasSpots: true,
 };
 
 export type GeonameTaxonomy = BaseTaxonomy & {
   type: 'geoname',
   category: 'geonames',
-  geonameId: string,
-  // comma seperated string path to this geoname
+  geonameId: GeonameId,
+  // comma separated string path to this geoname
   enumeratedPath: string, 
   // 'string' vals may have better enum types, could clean this up...
   geonames: {

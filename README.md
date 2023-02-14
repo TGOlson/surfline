@@ -14,11 +14,32 @@ $ npm install surfline --save
 
 ### usage
 
+This library exposes two Surfline API calls: `fetchTaxonomy` (used to fetch location entities) and `fetchForecast` (used to fetch forecasts). 
+
+```ts
+import {fetchTaxonomy} from 'surfline';
+
+fetchTaxonomy({id: <some-id>}).then((res: TaxonomyResponse) => {
+  // do something with result...
+  // eg. fetch all taxonomies in res.contains
+})
+```
+
+_note: for initial exploration `fetchEarthTaxonomy` can be used as a convenient starting point_
+
+```ts
+import {fetchForecast} from 'surfline';
+
+fetchForecast({spotId: <some-spot-id>, type: 'wave'}).then((res: WaveForecast) => {
+  // do something with result...
+})
+```
+
+### types
+
 **`fetchTaxonomy`**
 
 Taxonomies are used by Surfline to represent location entities (eg. countries, cities, surf spots, etc). Each taxonomy also has a subtype which can be one of: `spot`, `subregion`, `region` or `geoname`.
-
-Taxonomies can fetched using `fetchTaxonomy`. For initial exploration `fetchEarthTaxonomy` can also be used as a convenient starting point. 
 
 ```ts
 function fetchTaxonomy(q: TaxonomyQuery): Promise<TaxonomyResponse>
@@ -50,8 +71,6 @@ _A few things to keep in mind_
 * Fetching "Earth" with a `maxDepth` of 6 returns almost every taxonomy (with a few edge case exceptions)
 
 **`fetchForecast`**
-
-Surfline provides a number of different forecasts available to query, enumerated by `ForecastType`.
 
 ```ts
 function fetchForecast(q: ForecastQuery): Promise<ForecastResponse[typeof q['type']]>
