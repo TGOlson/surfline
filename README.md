@@ -16,7 +16,7 @@ $ npm install surfline --save
 
 **`fetchTaxonomy`**
 
-Taxonomies are the general term Surfline uses to represent location entities (eg. countries, cities, surf spots, etc). Each taxonomy also has a subtype which can be one of: `spot`, `subregion`, `region` or `geoname` (each type having mostly similar properties, with some differences).
+Taxonomies are used Surfline by to represent location entities (eg. countries, cities, surf spots, etc). Each taxonomy also has a subtype which can be one of: `spot`, `subregion`, `region` or `geoname` (each type having mostly similar properties, with some differences).
 
 Taxonomies can fetched using `fetchTaxonomy`.
 
@@ -42,8 +42,10 @@ type TaxonomyResponse = Taxonomy & {
 
 A few things to keep in mind:
 
+* Querying for types other than 'taxonomy' isn't really that useful, almost all queries should use `TaxonomyQuery.type=taxonomy`
 * If setting a `TaxonomyQuery.type` make sure the `TaxonomyQuery.id` also references a taxonomy of that type (eg. if `type=spot` make sure to use `SpotTaxonomy.spot` as the id)
-* `maxDepth` controls how many "levels" of data is returned. eg. if fetching the "Earth" taxonomy, a depth of 0 returns continents, while a depth of 1 returns continents and countries
+* `maxDepth` controls how many "levels" of data is returned (eg. if fetching the "Earth" taxonomy, a depth of 0 returns continents, while a depth of 1 returns continents and countries)
+* Query Earth with a `maxDepth` of 6 returns almost every taxonomy (with a few edge case exceptions)
 
 **Forecast**
 
