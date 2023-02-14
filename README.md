@@ -2,6 +2,10 @@
 
 Surfline API bindings and types in JS with no external dependencies.
 
+The publically available Surfline API is undocumented, but relatively easy to call. However, the response types are often quite messy, and at times inconsistent. 
+
+This library provides more clarity of response types by providing rigorous Typescript bindings for the available Surfline API calls. 
+
 ### install
 
 ```
@@ -9,10 +13,6 @@ $ npm install surfline --save
 ```
 
 ### usage
-
-The publically available Surfline API is undocumented, but relatively easy to call. However, the response types are often quite messy, and at times inconsistent. 
-
-This library provides more clarity of response types by providing rigorous Typescript bindings for the available Surfline API calls. 
 
 **`fetchTaxonomy`**
 
