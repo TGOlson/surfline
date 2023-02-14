@@ -8,9 +8,9 @@ export type ForecastType
   // `combined` provides a quick overview, but doesn't give the same level of detail as individual forecasts
   | 'combined';
 
-export type ForecastQuery = {
+export type ForecastQuery<T extends ForecastType> = {
   spotId: string,
-  type: ForecastType,
+  type: T,
 
   // `days` specifies how far out you want the forecast, some forecasts are limited to 6 days max
   days?: number,
