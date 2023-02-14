@@ -14,7 +14,7 @@ $ npm install surfline --save
 
 ### usage
 
-This library exposes two Surfline API calls: `fetchTaxonomy` (used to fetch location entities) and `fetchForecast` (used to fetch forecasts). 
+This library exposes two Surfline API calls: `fetchTaxonomy` (used to fetch location entities) and `fetchForecast`.
 
 ```ts
 import {fetchTaxonomy} from 'surfline';
@@ -23,9 +23,10 @@ fetchTaxonomy({id: <some-id>}).then((res: TaxonomyResponse) => {
   // do something with result...
   // eg. fetch all taxonomies in res.contains
 })
-```
 
-_note: for initial exploration `fetchEarthTaxonomy` can be used as a convenient starting point_
+// note: for initial exploration `fetchEarthTaxonomy` can be used as a convenient starting point
+fetchEarthTaxonomy().then((res: TaxonomyResponse) => { ... })
+```
 
 ```ts
 import {fetchForecast} from 'surfline';
@@ -35,7 +36,7 @@ fetchForecast({spotId: <some-spot-id>, type: 'wave'}).then((res: WaveForecast) =
 })
 ```
 
-### types
+### more details
 
 **`fetchTaxonomy`**
 
