@@ -76,7 +76,7 @@ type TaxonomyResponse = Taxonomy & {
 **`fetchForecast`**
 
 ```ts
-function fetchForecast(q: ForecastQuery): Promise<ForecastResponse[typeof q['type']]>
+function fetchForecast<T extends ForecastType>(q: ForecastQuery<T>): Promise<ForecastResponse[T]>
 
 export type ForecastType 
   = 'wind' 
@@ -89,9 +89,9 @@ export type ForecastType
   // but doesn't give the same level of detail as individual forecasts
   | 'combined';
 
-export type ForecastQuery = {
+export type ForecastQuery<T extends ForecastType> = {
   spotId: string,
-  type: ForecastType,
+  type: T,
 
   // `days` specifies how far out you want the forecast, 
   // some forecasts are limited to 6 days max
