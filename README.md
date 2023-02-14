@@ -6,7 +6,7 @@ The publicly available Surfline API is undocumented, but relatively easy to call
 
 This library provides more clarity of response types by providing rigorous Typescript bindings for the available Surfline API calls. 
 
-_note: as the response types are pretty unwieldy, there might be some edge cases errors in the types provided by this library, if you find any please open an issue to let me know!_
+_note: as Surfline responses are pretty unwieldy, there might be some edge cases errors in the types provided by this library, if you find any errors please open an issue to let me know!_
 
 ### install
 
@@ -115,7 +115,7 @@ export declare interface ForecastResponse {
   combined: CombinedForecast;
 }
 ```
-_note: a subset of forecasts are available for subregions via the surfline API (`/regions/forecasts/rating?subregionId=...`), but that is not currently exposed by this library_
+_note: a subset of forecasts are available for subregions via the surfline API (`/regions/forecasts/conditions?subregionId=...`), but that is not currently exposed by this library_
 
 ### dev
 
