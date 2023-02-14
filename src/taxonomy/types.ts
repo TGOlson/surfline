@@ -1,18 +1,23 @@
+export type TaxonomyType = 'spot' | 'subregion' | 'region' | 'geoname';
+
+export type TaxonomyQuery = {
+  id: string,
+
+  // Most queries should use `type=taxonomy`, other types are not frequently useful
+  // If setting `type`, ensure `id` references a taxonomy of that type (eg. if `type=spot` use `SpotTaxonomy.spot` as id)
+  type?: 'taxonomy' | TaxonomyType,
+
+  // `maxDepth` controls how many "levels" of data is returned 
+  // eg. if fetching "Earth" taxonomy, a depth of 0 returns continents, while a depth of 1 returns continents and countries
+  maxDepth?: number,
+};
+
 // useful for more slightly explicit typings later on...
 export type TaxonomyId = string;
 export type SpotId = string;
 export type SubregionId = string;
 export type RegionId = string;
 export type GeonameId = string;
-
-export type TaxonomyType = 'spot' | 'subregion' | 'region' | 'geoname';
-
-export type TaxonomyQuery = {
-  // TODO: id type should max taxonomy type... but right now they are all strings, so probably not worth adding to typing
-  id: TaxonomyId | SpotId | SubregionId | RegionId | GeonameId,
-  type?: 'taxonomy' | TaxonomyType,
-  maxDepth?: number,
-};
 
 export type Location = {
   coordinates : [number, number],

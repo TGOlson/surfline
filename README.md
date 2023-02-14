@@ -37,11 +37,9 @@ fetchForecast({spotId: <some-spot-id>, type: 'wave'}).then((res: WaveForecast) =
 })
 ```
 
-### more details
+### types
 
 **`fetchTaxonomy`**
-
-Taxonomies are used by Surfline to represent location entities (eg. countries, cities, surf spots, etc). Each taxonomy also has a subtype which can be one of: `spot`, `subregion`, `region` or `geoname`.
 
 ```ts
 function fetchTaxonomy(q: TaxonomyQuery): Promise<TaxonomyResponse>
@@ -50,13 +48,19 @@ function fetchEarthTaxonomy(q: Pick<TaxonomyQuery, 'maxDepth'>): Promise<Taxonom
 
 type TaxonomyType = 'spot' | 'subregion' | 'region' | 'geoname';
 
-type TaxonomyQuery = {
+export type TaxonomyQuery = {
   id: string,
+
+  // Most queries should use `type=taxonomy`, other types are not frequently useful
+  // If setting `type`, ensure `id` references a taxonomy of that type (eg. if `type=spot` use `SpotTaxonomy.spot` as id)
   type?: 'taxonomy' | TaxonomyType,
+
+  // `maxDepth` controls how many "levels" of data is returned 
+  // eg. if fetching "Earth" taxonomy, a depth of 0 returns continents, while a depth of 1 returns continents and countries
   maxDepth?: number,
 };
 
-// individual X-Taxonomy types omitted... see type files for more details
+// individual xTaxonomy types omitted... see type files for more details
 type Taxonomy = SpotTaxonomy | SubregionTaxonomy | RegionTaxonomy | GeonameTaxonomy;
 
 type TaxonomyResponse = Taxonomy & {
@@ -65,27 +69,34 @@ type TaxonomyResponse = Taxonomy & {
 };
 ```
 
-_A few things to keep in mind_
-
-* Most queries should use `TaxonomyQuery.type=taxonomy`, other types are not frequently useful
-* If setting `TaxonomyQuery.type` make sure `TaxonomyQuery.id` references a taxonomy of that type (eg. if `type=spot` make sure to use `SpotTaxonomy.spot` as the id)
-* `maxDepth` controls how many "levels" of data is returned (eg. if fetching the "Earth" taxonomy, a depth of 0 returns continents, while a depth of 1 returns continents and countries)
-* Fetching "Earth" with a `maxDepth` of 6 returns almost every taxonomy (with a few edge case exceptions)
-
 **`fetchForecast`**
 
 ```ts
 function fetchForecast(q: ForecastQuery): Promise<ForecastResponse[typeof q['type']]>
 
-export type ForecastType = 'wind' | 'wave' | 'rating' | 'tides' | 'weather' | 'conditions' | 'combined';
+export type ForecastType 
+  = 'wind' 
+  | 'wave' 
+  | 'rating' 
+  | 'tides' 
+  | 'weather' 
+  | 'conditions' 
+  // `combined` provides a quick overview, but doesn't give the same level of detail as individual forecasts
+  | 'combined';
 
 export type ForecastQuery = {
   spotId: string,
   type: ForecastType,
+
+  // `days` specifies how far out you want the forecast, some forecasts are limited to 6 days max
   days?: number,
+
+  // `intervalHours` specifies granularity of data (eg. `intervalHours=3` returns 8 forecast items per day)
+  // `intervalHours` is ignored for `tide` forecasts, those always default to 1 hour intervals
   intervalHours?: number,
 };
 
+// individual xForecast types omitted... see type files for more details
 export declare interface ForecastResponse {
   wind: WindForecast;
   wave: WaveForecast;
@@ -96,14 +107,7 @@ export declare interface ForecastResponse {
   combined: CombinedForecast;
 }
 ```
-
-_A few things to keep in mind_
-
-* `combined` provides a quick overview, but doesn't give the same level of detail as individual forecasts
-* `days` specifies how far out you want the forecast, some forecasts are limited to 6 days max
-* `intervalHours` specifies granularity of data (eg. `intervalHours=3` returns 8 forecast items per day)
-* `intervalHours` doesn't seem to do anything with `tide` forecasts, those always default to 1 hour intervals
-* a subset of regional forecast are available from the surfline API (`/regions/forecasts/rating?subregionId=...`), but that is not currently exposed by this library
+_note: a subset of forecasts are available for subregions via the surfline API (`/regions/forecasts/rating?subregionId=...`), but that is not currently exposed by this library_
 
 ### dev
 

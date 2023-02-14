@@ -1,11 +1,25 @@
-export type ForecastType = 'wind' | 'wave' | 'rating' | 'tides' | 'weather' | 'conditions' | 'combined';
+export type ForecastType 
+  = 'wind' 
+  | 'wave' 
+  | 'rating' 
+  | 'tides' 
+  | 'weather' 
+  | 'conditions' 
+  // `combined` provides a quick overview, but doesn't give the same level of detail as individual forecasts
+  | 'combined';
 
 export type ForecastQuery = {
   spotId: string,
   type: ForecastType,
+
+  // `days` specifies how far out you want the forecast, some forecasts are limited to 6 days max
   days?: number,
+
+  // `intervalHours` specifies granularity of data (eg. `intervalHours=3` returns 8 forecast items per day)
+  // `intervalHours` is ignored for `tide` forecasts, those always default to 1 hour intervals
   intervalHours?: number,
 };
+
 
 export type Units = {
   // TODO: are there other values that are ever returned? 
