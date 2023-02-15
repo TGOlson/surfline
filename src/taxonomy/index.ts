@@ -13,8 +13,8 @@ export async function fetchTaxonomy(q: TaxonomyQuery): Promise<TaxonomyResponse>
   return await res.json() as TaxonomyResponse;
 }
 
-export async function fetchEarthTaxonomy(q: Pick<TaxonomyQuery, 'maxDepth'>): Promise<TaxonomyResponse> {
-  return fetchTaxonomy({id: EARTH_GEONAME_ID, maxDepth: q.maxDepth});
+export async function fetchEarthTaxonomy(q?: {maxDepth: number}): Promise<TaxonomyResponse> {
+  return fetchTaxonomy({id: EARTH_GEONAME_ID, maxDepth: q?.maxDepth});
 }
 
 // useful when filtering taxonomies

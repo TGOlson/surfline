@@ -6,8 +6,6 @@ The publicly available Surfline API is undocumented, but relatively easy to call
 
 This library provides more clarity of response types by providing rigorous Typescript bindings for the available Surfline API calls. 
 
-_note: as Surfline responses are pretty unwieldy, there might be some edge cases errors in the types provided by this library, if you find any errors please open an issue to let me know!_
-
 ### install
 
 ```
@@ -27,16 +25,17 @@ fetchTaxonomy({id: <some-id>}).then((res: TaxonomyResponse) => {
   // eg. fetch all taxonomies in res.contains
 })
 
-// or for initial exploration `fetchEarthTaxonomy` can be used as a convenient starting point
+// `fetchEarthTaxonomy` can also be used as a convenient starting point
 fetchEarthTaxonomy().then((res: TaxonomyResponse) => { ... })
 ```
 
 ```ts
 import {fetchForecast} from 'surfline';
 
-fetchForecast({spotId: <some-spot-id>, type: 'wave'}).then((res: WaveForecast) => {
-  // do something with result...
-})
+fetchForecast({spotId: <some-spot-id>, type: 'wave'})
+  .then((res: WaveForecast) => {
+    // do something with result...
+  })
 ```
 
 ### types
@@ -46,14 +45,14 @@ fetchForecast({spotId: <some-spot-id>, type: 'wave'}).then((res: WaveForecast) =
 ```ts
 function fetchTaxonomy(q: TaxonomyQuery): Promise<TaxonomyResponse>
 
-function fetchEarthTaxonomy(q: Pick<TaxonomyQuery, 'maxDepth'>): Promise<TaxonomyResponse>
+function fetchEarthTaxonomy(q?: {maxDepth: number}): Promise<TaxonomyResponse>
 
 type TaxonomyType = 'spot' | 'subregion' | 'region' | 'geoname';
 
 export type TaxonomyQuery = {
   id: string,
 
-  // Most queries should use `type=taxonomy`, other types are not frequently useful
+  // Most queries should use `type=taxonomy`
   // If setting `type`, ensure `id` references a taxonomy of that type 
   // (eg. if `type=spot` use `SpotTaxonomy.spot` as id)
   type?: 'taxonomy' | TaxonomyType,
@@ -93,14 +92,13 @@ export type ForecastQuery<T extends ForecastType> = {
   spotId: string,
   type: T,
 
-  // `days` specifies how far out you want the forecast, 
+  // specifies how far out you want the forecast, 
   // some forecasts are limited to 6 days max
   days?: number,
 
-  // `intervalHours` specifies granularity of data 
+  // specifies granularity of data 
   // (eg. `intervalHours=3` returns 8 forecast items per day)
-  // `intervalHours` is ignored for `tide` forecasts, 
-  // those always default to 1 hour intervals
+  // ignored for `tide` forecasts (always defaults to 1 hour)
   intervalHours?: number,
 };
 
@@ -115,7 +113,7 @@ export declare interface ForecastResponse {
   combined: CombinedForecast;
 }
 ```
-_note: a subset of forecasts are available for subregions via the surfline API (`/regions/forecasts/conditions?subregionId=...`), but that is not currently exposed by this library_
+_note: a subset of forecasts are available for subregions via the surfline API, but that is not currently exposed by this library_
 
 ### dev
 
