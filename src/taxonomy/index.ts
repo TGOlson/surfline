@@ -1,3 +1,4 @@
+import { SurflineError } from "../error";
 import { EARTH_GEONAME_ID, NONEXISTENT_BAJA_SUBREGION_ID, NONEXISTENT_GREECE_SUBREGION_ID } from "./constants";
 import { Taxonomy, TaxonomyQuery, TaxonomyResponse } from "./types";
 
@@ -13,7 +14,8 @@ export async function fetchTaxonomy(q: TaxonomyQuery): Promise<TaxonomyResponse>
   const resJSON = await res.json();
 
   if (res.status! !== 200) {
-    throw new Error((resJSON as {message: string}).message)
+    const message = (resJSON as {message: string}).message;
+    throw new SurflineError({status: res.status, message});
   }
 
   return resJSON as TaxonomyResponse;

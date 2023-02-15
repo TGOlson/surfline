@@ -1,3 +1,4 @@
+import { SurflineError } from "../error";
 import { ForecastQuery, ForecastResponse, ForecastType } from "./types";
 
 const BASE_FORECAST_URL = 'https://services.surfline.com/kbyg/spots/forecasts';
@@ -13,7 +14,8 @@ export async function fetchForecast<T extends ForecastType>(q: ForecastQuery<T>)
   const resJSON = await res.json();
 
   if (res.status! !== 200) {
-    throw new Error((resJSON as {message: string}).message)
+    const message = (resJSON as {message: string}).message;
+    throw new SurflineError({status: res.status, message});
   }
 
   return resJSON as ForecastResponse[T];
