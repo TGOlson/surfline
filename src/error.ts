@@ -9,3 +9,7 @@ export class SurflineError extends Error {
     this.message = message;
   }
 };
+
+export function isSurflineError(x: unknown): x is SurflineError {
+  return x instanceof SurflineError;
+}
