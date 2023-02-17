@@ -36,13 +36,19 @@ export type Location = {
   lat: number,
 };
 
-// TODO: probably useful to make these enums:
-
-// eg. "FAIR"
-export type RatingDescription = string;
-
+// TODO: probably useful to make enum:
 // eg. "Waist to chest"
 export type WaveSizeDescription = string;
+
+// https://support.surfline.com/hc/en-us/articles/9780949042843-Surf-Conditions-Ratings-Colors
+export type RatingDescription 
+  = 'VERY_POOR'
+  | 'POOR'
+  | 'POOR_TO_FAIR'
+  | 'FAIR'
+  | 'FAIR_TO_GOOD'
+  | 'GOOD'
+  | 'EPIC';
 
 export type Wind = {
   timestamp: number,
