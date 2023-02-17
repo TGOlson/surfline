@@ -55,8 +55,7 @@ export type Wind = {
   utcOffset: number,
   speed: number,
   direction: number,
-  // TODO: could be an enum: "Onshore", ...
-  directionType: string 
+  directionType: 'Onshore' | 'Offshore' | 'Cross-shore',
   gust: number,
   optimalScore: number
 };
