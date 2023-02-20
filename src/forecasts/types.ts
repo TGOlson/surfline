@@ -119,7 +119,7 @@ export type Rating = {
   rating: {
     key: RatingDescription 
     value: number
-  }
+  },
 };
 
 export type RatingForecast = {
@@ -128,7 +128,8 @@ export type RatingForecast = {
     runInitializationTimestamp: number,
   },
   data: {
-    rating: Rating[]
+    // not all spots have a rating
+    rating: Rating[] | null
   }
 };
 
