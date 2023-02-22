@@ -1,8 +1,7 @@
 {
   "name": "surfline",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Surfline API bindings and types in JS with no external dependencies",
-  "type": "module",
   "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
