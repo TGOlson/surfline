@@ -14,7 +14,10 @@ $ npm install surfline --save
 
 ### usage
 
-This library exposes two Surfline API calls: `fetchTaxonomy` (used to fetch location entities) and `fetchForecast`.
+This library exposes three Surfline API calls: 
+1. `fetchTaxonomy` -- used to fetch location entities
+2. `fetchForecast` -- used to fetch forecasts for spots
+3. `fetchSpotInfo` -- used to fetch surf spot information
 
 ```ts
 import {fetchTaxonomy} from 'surfline';
@@ -36,6 +39,14 @@ fetchForecast({spotId: <some-spot-id>, type: 'wave'})
   .then((res: WaveForecast) => {
     // do something with result...
   })
+```
+
+```ts
+import {fetchSpotInfo} from 'surfline';
+
+fetchSpotInfo({spotIds: [...]}).then((res: SpotInfoResponse) => {
+  // do something with result...
+})
 ```
 
 ### types
@@ -93,7 +104,7 @@ export type ForecastQuery<T extends ForecastType> = {
   type: T,
 
   // Specifies how far out you want the forecast
-  // Maximum of 6 days w/o access token (up to 17 days w/ token)
+  // Some forecasts are limited 6 days max w/o access token
   days?: number,
 
   // Specifies granularity of data
@@ -114,6 +125,24 @@ export declare interface ForecastResponse {
 }
 ```
 _note: a subset of forecasts are available for subregions via the surfline API, but that is not currently exposed by this library_
+
+**`fetchSpotInfo`**
+
+```ts
+function fetchSpotInfo({spotIds}: SpotInfoQuery): Promise<SpotInfoResponse>
+
+type SpotInfoQuery = {
+  spotIds: string[]
+};
+
+// `SpotInfo` type omitted... see type files for more details
+type SpotInfoResponse = {
+  associated: {
+    units: Units
+  },
+  data: SpotInfo[]
+}
+```
 
 ### dev
 
