@@ -5,30 +5,41 @@ export type ForecastType
   | 'tides' 
   | 'weather' 
   | 'conditions' 
-  // `combined` provides a quick overview, but doesn't give the same level of detail as individual forecasts
+  // Provides an overview all all other forecasts, 
+  // but doesn't give the same level of detail as individual forecasts
   | 'combined';
 
 export type ForecastQuery<T extends ForecastType> = {
   spotId: string,
   type: T,
 
-  // `days` specifies how far out you want the forecast, some forecasts are limited to 6 days max
+  // Specifies how far out you want the forecast
+  // Maximum of 6 days w/o access token (up to 17 days w/ token)
   days?: number,
 
-  // `intervalHours` specifies granularity of data (eg. `intervalHours=3` returns 8 forecast items per day)
-  // `intervalHours` is ignored for `tide` forecasts, those always default to 1 hour intervals
+  // Specifies granularity of data
+  // (eg. `intervalHours=3` returns 8 forecast items per day)
+  // Ignored for type = `tide` (defaults to 1 hour), and `conditions` (defaults to 12 hours)
   intervalHours?: number,
 };
 
 
 export type Units = {
-  // TODO: are there other values that are ever returned? 
-  temperature: "F",
-  tideHeight: "FT",
-  swellHeight: "FT",
-  waveHeight: "FT",
-  windSpeed: "KTS",
-  pressure: "MB"
+  // TODO: So far only observed values are: 
+  // (are others ever returned?)
+  // 
+  // temperature: "F",
+  // tideHeight: "FT",
+  // swellHeight: "FT",
+  // waveHeight: "FT",
+  // windSpeed: "KTS",
+  // pressure: "MB"
+  temperature: string,
+  tideHeight: string,
+  swellHeight: string,
+  waveHeight: string,
+  windSpeed: string,
+  pressure: string
 };
 
 export type Location = {
@@ -50,14 +61,18 @@ export type RatingDescription
   | 'GOOD'
   | 'EPIC';
 
+export type OptimalScore = 0 | 1 | 2;
+
+export type DirectionType = 'Onshore' | 'Offshore' | 'Cross-shore';
+
 export type Wind = {
   timestamp: number,
   utcOffset: number,
   speed: number,
   direction: number,
-  directionType: 'Onshore' | 'Offshore' | 'Cross-shore',
+  directionType: DirectionType,
   gust: number,
-  optimalScore: number
+  optimalScore: OptimalScore
 };
 
 export type WindForecast = {
@@ -78,7 +93,7 @@ export type Swell = {
   impact: number,
   direction: number,
   directionMin: number,
-  optimalScore: number,
+  optimalScore: OptimalScore,
 };
 
 export type Wave = {
@@ -88,7 +103,7 @@ export type Wave = {
   surf: {
     min: number,
     max: number,
-    optimalScore: number,
+    optimalScore: OptimalScore,
     plus: boolean,
     humanRelation: WaveSizeDescription, 
     raw: {

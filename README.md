@@ -84,7 +84,7 @@ export type ForecastType
   | 'tides' 
   | 'weather' 
   | 'conditions' 
-  // `combined` provides a quick overview, 
+  // Provides an overview all all other forecasts, 
   // but doesn't give the same level of detail as individual forecasts
   | 'combined';
 
@@ -92,13 +92,13 @@ export type ForecastQuery<T extends ForecastType> = {
   spotId: string,
   type: T,
 
-  // specifies how far out you want the forecast, 
-  // some forecasts are limited to 6 days max
+  // Specifies how far out you want the forecast
+  // Maximum of 6 days w/o access token (up to 17 days w/ token)
   days?: number,
 
-  // specifies granularity of data 
+  // Specifies granularity of data
   // (eg. `intervalHours=3` returns 8 forecast items per day)
-  // ignored for `tide` forecasts (always defaults to 1 hour)
+  // Ignored for type = `tide` (defaults to 1 hour), and `conditions` (defaults to 12 hours)
   intervalHours?: number,
 };
 
