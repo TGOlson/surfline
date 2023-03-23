@@ -10,7 +10,7 @@ export async function fetchTaxonomy(q: TaxonomyQuery): Promise<TaxonomyResponse>
 
   const url = `${BASE_TAXONOMY_URL}?type=${type}&id=${q.id}&maxDepth=${maxDepth}`;
 
-  const res = await fetch(url);
+  const res = await fetch(url, {mode: 'no-cors'});
   const resJSON = await res.json();
 
   if (res.status! !== 200) {
