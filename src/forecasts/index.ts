@@ -10,7 +10,7 @@ export async function fetchForecast<T extends ForecastType>(q: ForecastQuery<T>)
 
   const url = `${BASE_FORECAST_URL}${subPath}?spotId=${q.spotId}&days=${days}&intervalHours=${intervalHours}`;
 
-  const res = await fetch(url, {mode: 'no-cors'});
+  const res = await fetch(url);
   const resJSON = await res.json();
 
   if (res.status! !== 200) {

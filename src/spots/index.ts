@@ -7,7 +7,6 @@ export async function fetchSpotInfo({spotIds}: SpotInfoQuery): Promise<SpotInfoR
   const body = JSON.stringify({spotIds});
 
   const res = await fetch(SPOTS_URL, {
-    mode: 'no-cors',
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
