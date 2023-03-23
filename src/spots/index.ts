@@ -3,10 +3,12 @@ import { SpotInfoQuery, SpotInfoResponse } from "./types";
 
 const SPOTS_URL = 'https://services.surfline.com/kbyg/spots/batch';
 
-export async function fetchSpotInfo({spotIds}: SpotInfoQuery): Promise<SpotInfoResponse> {
-  const body = JSON.stringify({spotIds});
+export async function fetchSpotInfo(q: SpotInfoQuery): Promise<SpotInfoResponse> {
+  const body = JSON.stringify({spotIds: q.spotIds});
 
-  const res = await fetch(SPOTS_URL, {
+  const url = q.proxy ? `${q.proxy}${SPOTS_URL}` : SPOTS_URL;
+
+  const res = await fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

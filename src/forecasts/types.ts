@@ -21,6 +21,9 @@ export type ForecastQuery<T extends ForecastType> = {
   // (eg. `intervalHours=3` returns 8 forecast items per day)
   // Ignored for type = `tide` (defaults to 1 hour), and `conditions` (defaults to 12 hours)
   intervalHours?: number,
+
+  // Use this if you want to proxy requests through another server (eg. to avoid cors issues)
+  proxy?: string,
 };
 
 

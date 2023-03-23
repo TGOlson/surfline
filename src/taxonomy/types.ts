@@ -10,6 +10,9 @@ export type TaxonomyQuery = {
   // `maxDepth` controls how many "levels" of data is returned 
   // eg. if fetching "Earth" taxonomy, a depth of 0 returns continents, while a depth of 1 returns continents and countries
   maxDepth?: number,
+
+  // Use this if you want to proxy requests through another server (eg. to avoid cors issues)
+  proxy?: string,
 };
 
 // useful for more slightly explicit typings later on...

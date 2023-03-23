@@ -1,7 +1,10 @@
 import { Rating, RatingDescription, Swell, Tide, Units, Wave, Weather, Wind } from "../forecasts/types"
 
 export type SpotInfoQuery = {
-  spotIds: string[]
+  spotIds: string[],
+
+  // Use this if you want to proxy requests through another server (eg. to avoid cors issues)
+  proxy?: string,
 };
 
 export type AbilityLevel = 'BEGINNER' | 'INTERMEDIATE' | 'ADVANCED';

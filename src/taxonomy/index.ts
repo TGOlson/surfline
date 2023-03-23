@@ -8,7 +8,8 @@ export async function fetchTaxonomy(q: TaxonomyQuery): Promise<TaxonomyResponse>
   const type = q.type ?? 'taxonomy';
   const maxDepth = q.maxDepth ?? 0;
 
-  const url = `${BASE_TAXONOMY_URL}?type=${type}&id=${q.id}&maxDepth=${maxDepth}`;
+  const baseUrl = `${BASE_TAXONOMY_URL}?type=${type}&id=${q.id}&maxDepth=${maxDepth}`;
+  const url = q.proxy ? `${q.proxy}${baseUrl}` : baseUrl;
 
   const res = await fetch(url);
   const resJSON = await res.json();
